@@ -1,0 +1,842 @@
+[
+	{
+		"title": "Responsible Responsive Design",
+		"author": "Scott Jehl",
+		"rating": "4.12",
+		"started": "2016/06/26",
+		"finished": "2016/06/28",
+		"genre": "",
+		"review": "Interesting look into what it would really take to serve websites that are accessible across hardware and software.<br/><br/>Some techniques are still relevant, but mostly I walked away with two feelings:<br/><br/>1. Why do we even use JavaScript and CSS when they're both hyper exclusionary and unreliable (even today), and I mostly just want to read text on the internet anyway?<br/><br/>2. Build systems like Webpack are going to grow a lot more in importance.",
+		"goodreadsID": "23588216"
+	},
+	{
+		"title": "Foundation (Foundation, #1)",
+		"author": "Isaac Asimov",
+		"rating": "4.10",
+		"started": "2016/07/17",
+		"finished": "2016/06/28",
+		"genre": "",
+		"review": "If you're a disgruntled philosopher / amature sociologist, consider this high-felutin escapism.<br/><br/>It's a commentary on how to control people, and a general critique of the masses, thinly wrapped in a sci-fi story and bad dialogue. It's heavily weighted toward the bad dialogue part.<br/><br/>Still, I found myself rooting for the ivory tower mathematicians and philosophers. If you're exhausted by thoughts of humanity's tailspin and / or frustrated with feeling like you have the answers but just can't do anything about it, there's a lot to like here. Foundation is hundreds of pages about reasonable people manipulating greedy, unreflective, ignorant, selfish people around until everything is better.<br/><br/>Yes, all the condescending, arrogant, patronizing ideology is included.",
+		"goodreadsID": "29579"
+	},
+	{
+		"title": "Git for Humans (A Book Apart #17)",
+		"author": "David Demaree",
+		"rating": "3.94",
+		"started": "2016/06/01",
+		"finished": "2016/06/03",
+		"genre": "computers",
+		"review": "",
+		"goodreadsID": "28801648"
+	},
+	{
+		"title": "The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness",
+		"author": "Sy Montgomery",
+		"rating": "3.82",
+		"started": "",
+		"finished": "2016/05/15",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "22609485"
+	},
+	{
+		"title": "Doing Good Better: How Effective Altruism Can Help You Make a Difference",
+		"author": "William MacAskill",
+		"rating": "4.22",
+		"started": "2016/04/27",
+		"finished": "2016/04/26",
+		"genre": "",
+		"review": "The book summarizes much of his research on the most efficient strategies for making the world a better place. His research concerns how to tell which causes have the greatest impact in the world, how to decide the best use of our money and time, and how to think about choosing a career that makes the biggest possible difference. It's hard to say it better than MacAskill:<br/><br/>\"...because of that economic progress, we live at a time in which we have the technology to easily gather information about people thousands of miles away, the ability to significantly influence their lives, and the scientific knowledge to work out what the most effective ways of helping are. For these reasons, few people who have ever existed have had so much power to help others as we have today.\"<br/><br/>At just 200 pages, it's probably the easiest thing you can do to start expanding your impact in the world.",
+		"goodreadsID": "23398748"
+	},
+	{
+		"title": "The Peripheral",
+		"author": "William Gibson",
+		"rating": "3.94",
+		"started": "2016/01/01",
+		"finished": "2016/04/15",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "20821159"
+	},
+	{
+		"title": "HTML5 Foundations",
+		"author": "Matt   West",
+		"rating": "4.33",
+		"started": "2016/04/10",
+		"finished": "2016/04/10",
+		"genre": "computers, non-fiction",
+		"review": "This is a fantastic read for people completely new to HTML generally. It also has some really terrific info on advanced features of HTML5. I especially appreciate the sections on Local/Session Storage, accessibility, SEO, and the HTML5 media APIs.<br/><br/>I've been a web developer for years and I immediately bookmarked those sections. It's structured in a way that's easy to skim for the code / examples you want after having read it once carefully.",
+		"goodreadsID": "16190796"
+	},
+	{
+		"title": "If Hemingway Wrote JavaScript",
+		"author": "Angus Croll",
+		"rating": "4.31",
+		"started": "2016/03/17",
+		"finished": "2016/03/22",
+		"genre": "computers",
+		"review": "This is the best book I've read all year. It's a love letter to JavaScript, in a way that is only possible by the power of the JS spirit. For all the complaints of JavaScript fatigue, and the many counter-intuitive nuances of JS, I'm hard pressed to name a more expressive programming language. This book channels that expressiveness in the highest.<br/><br/>This book is for anyone craving an eloquent defense of their love affair with JS. It forever changed the way I think of programming, and has helped immunize me to best-practice-fever as nothing else could. Must read.",
+		"goodreadsID": "21487480"
+	},
+	{
+		"title": "SurviveJS - Webpack and React",
+		"author": "Juho Vepsäläinen",
+		"rating": "3.60",
+		"started": "2016/03/22",
+		"finished": "2016/03/22",
+		"genre": "computers",
+		"review": "The author's ability to clearly connect so many high level development paradigms through the lens of Webpack/React is really nice. There's a wealth of information about the individual ideas on the internet: React, Webpack, Webpack for (x), styling React, testing React, and so on.<br/><br/>And yet, I don't know any resources that provide so much connective tissue.<br/><br/>I felt the demo app was also exactly the right level of complexity: not too hard that the app logic was distracting, but not so light that I struggled to place the concepts in context later. For the record, I have never felt the same way about the ToDoMVC.",
+		"goodreadsID": "27836795"
+	},
+	{
+		"title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+		"author": "Robert C. Martin",
+		"rating": "4.27",
+		"started": "2016/03/04",
+		"finished": "2016/03/04",
+		"genre": "",
+		"review": "Simply written, easy to read. Martin's advice on acting professionally and keeping commitments is so poignant that I recommend this book to anyone, in software or any profession. ",
+		"goodreadsID": "10284614"
+	},
+	{
+		"title": "Auschwitz on the Yellow Sea",
+		"author": "Thomas Middlehurst",
+		"rating": "0.0",
+		"started": "2016/01/31",
+		"finished": "2016/01/31",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "28817383"
+	},
+	{
+		"title": "JavaScript Enlightenment",
+		"author": "Cody Lindley",
+		"rating": "3.54",
+		"started": "2016/02/05",
+		"finished": "2016/01/31",
+		"genre": "",
+		"review": "First of all, the subtitle is entirely misleading. Nothing about this book will empower you to set aside frameworks and libraries and take up the mantle of vanilla JS. Otherwise, it's...definitely super weird. As other reviewers have said, it's unsettling to see a book use a construction like `new Number(1)` or `new Function('a', 'b', 'return a + b')`<br/><br/>It's not the best, but I did glean some insights into the wait prototypal inheritance is implemented in JS. The worst part is just that its aged poorly. ECMAScript 3 was still in the future as of Lindley's writing. Oof. Lot's changed.<br/><br/>It doesn't detract from the book's main thesis, but the elderly examples and best-practice tips are distracting.",
+		"goodreadsID": "17198406"
+	},
+	{
+		"title": "The Philosophical Programmer: Reflections on the Moth in the Machine",
+		"author": "Daniel Kohanski",
+		"rating": "3.43",
+		"started": "2016/01/25",
+		"finished": "2016/01/18",
+		"genre": "computers, non-fiction",
+		"review": "The first two chapters are great - and the only chapters with philosophical content. There's a lot of sloppy distinction there - see the author's definition of ethics - but the central ideas are compelling. Those responsible for software weird untold responsibility.<br/><br/>The rest of the book is a history of computers and a description of old programming languages. It's pretty interesting but not especially insightful or memorable.<br/><br/>If you already have a strong computer science background you'll find it mind numbing, and if not you'll probably find it too taxing. ",
+		"goodreadsID": "441807"
+	},
+	{
+		"title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+		"author": "Marie Kondō",
+		"rating": "3.77",
+		"started": "2016/01/14",
+		"finished": "2016/01/11",
+		"genre": "non-fiction",
+		"review": "This is a weird book - it's a lot of self-referential marketing. I'm pretty sure I'm not the target audience (I didn't need to be pitched or convinced that less stuff is the path to a tidier life).  It does contain some really interesting ideas.<br/><br/>The only things in your life (material or otherwise) should be things you truly love, and that bring you real joy.<br/><br/>Treat the objects you handle in your home with respect, and ask sincerely whether they spark joy in you. If you struggle with this, I think you'll find this a worthy tool in putting your life in order.",
+		"goodreadsID": "22318578"
+	},
+	{
+		"title": "Functional JavaScript: Introducing Functional Programming with Underscore.js",
+		"author": "Michael Fogus",
+		"rating": "4.07",
+		"started": "2016/01/18",
+		"finished": "2016/01/11",
+		"genre": "computers, non-fiction",
+		"review": "This is a great window into the world of functional programming in JavaScript. The title could really not be more accurate. *ALSO* a lot of the material here helped me grok what Flux and Redux are all about.<br/><br/>My complaints about the book are ubiquitous in O'Reilly's offerings. 2 years is very old in software, especially the web, ESPECIALLY JavaScript. It made sense in 2013 to publish a book that leaned so heavily on Underscore. Now ES2015 accomplishes almost everything that Underscore is capable of.<br/><br/>You'll get the most out of this book if you have a strong grasp of the Underscore / Lodash API. That said, the core concepts of functional programming are here in exquisite candor. It's a good book to get the ol' juices flowing on the subject.<br/><br/>Really the worst thing about the book is the way the author so often uses functions that he wrote from much earlier chapters without closer reference. Even a footnote with the page number of the original function block would have been very helpful.<br/><br/>I would devote the most time to the chapters surrounding composition and partial application. These are without a doubt the most important ideas of the book.",
+		"goodreadsID": "17623632"
+	},
+	{
+		"title": "Einstein: His Life and Universe",
+		"author": "Walter Isaacson",
+		"rating": "4.06",
+		"started": "2016/01/08",
+		"finished": "2016/01/08",
+		"genre": "",
+		"review": "He was a beautiful man - radical in every important way, and willing to share it with all humanity.<br/><br/>If you can read his accomplishments and ambitions with dry eyes, it must be that you have never truly wondered.<br/><br/>His life was tragic, and inspiring, and his seat on the throne of history's great minds is among the very few justices conceived by the 20th century.",
+		"goodreadsID": "10884"
+	},
+	{
+		"title": "Understanding ECMAScript 6",
+		"author": "Nicholas C. Zakas",
+		"rating": "3.58",
+		"started": "2016/05/18",
+		"finished": "2015/11/25",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "23253178"
+	},
+	{
+		"title": "React.js Essentials",
+		"author": "Artemij Fedosejev",
+		"rating": "3.87",
+		"started": "2015/11/24",
+		"finished": "2015/11/20",
+		"genre": "",
+		"review": "A great introduction to the basic React technologies. The Flux discussion is very fast, and it's ES2015 is VERY limited. I submitted a pull-request to the central repo including my ES2015 refactor.",
+		"goodreadsID": "26226251"
+	},
+	{
+		"title": "Mastering Sublime Text",
+		"author": "Dan Peleg",
+		"rating": "2.80",
+		"started": "2015/11/18",
+		"finished": "2015/11/17",
+		"genre": "computers, non-fiction",
+		"review": "It's very rudimentary. It gives you some good shortcuts, and a description of how to use vi mode, which is cool. Also mentions a few useful plugins.<br/><br/>The most important sections regard writing your own snippets and macros. This is exactly what I wanted - they are brief, direct, and clearly written. I was finally able to overwrite some bullshit snippet in one of my packages that I couldn't track down.<br/><br/>Going through the examples also gives you a sense of the general architecture of Sublime Text, which is important to understand if you're using it everyday.<br/><br/>At 100 pages, you can read it in an afternoon, and frankly it's worth your time. Just don't expect to be a master of anything at the end.",
+		"goodreadsID": "20388705"
+	},
+	{
+		"title": "The New Hacker's Dictionary",
+		"author": "Eric S. Raymond",
+		"rating": "4.06",
+		"started": "",
+		"finished": "2015/11/10",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "104746"
+	},
+	{
+		"title": "Nausicaä of the Valley of the Wind: The Complete Series",
+		"author": "Hayao Miyazaki",
+		"rating": "4.75",
+		"started": "2015/08/06",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "15800525"
+	},
+	{
+		"title": "CSS Mastery: Advanced Web Standards Solutions",
+		"author": "Andy Budd",
+		"rating": "4.12",
+		"started": "2015/07/19",
+		"finished": "2015/08/02",
+		"genre": "non-fiction",
+		"review": "The best part is the testing / debugging suite. The solutions and technologies are already dated, of course, but the high-level concepts are invaluable.",
+		"goodreadsID": "563"
+	},
+	{
+		"title": "The Design of Everyday Things, Revised and Expanded Edition",
+		"author": "Donald A. Norman",
+		"rating": "4.16",
+		"started": "2015/07/10",
+		"finished": "2015/08/02",
+		"genre": "non-fiction",
+		"review": "This book is crazy important for people to read. It liberates users and consumers. It is an essential strategy guide for anyone wanting to improve the way we interact with objects or systems.",
+		"goodreadsID": "23209666"
+	},
+	{
+		"title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
+		"author": "Kevin D. Mitnick",
+		"rating": "3.93",
+		"started": "2015/07/01",
+		"finished": "2015/08/02",
+		"genre": "non-fiction",
+		"review": "Kevin Mitnick's biography is not always interesting. What is surely vivid and dramatic in his memories feels mundane and boring in writing. But his relationship with the history of hacking, and his insights into public opinion on the subject, are fascinating. And there is some genuinely exciting prose about his run from the FBI here, too. A must read for those interested in information security.",
+		"goodreadsID": "10256723"
+	},
+	{
+		"title": "Influence: The Psychology of Persuasion",
+		"author": "Robert B. Cialdini",
+		"rating": "4.16",
+		"started": "2015/06/19",
+		"finished": "2015/08/02",
+		"genre": "non-fiction",
+		"review": "A deeply disturbing window into how little humans understand themselves, each other, or our relationships. The advice is pretty trite, and the examples mundane. But the review of landmark studies in the field is compelling, informative, and useful. A lot of inspiration for exerting influence over others, as advertised.",
+		"goodreadsID": "28815"
+	},
+	{
+		"title": "Living the Farm Sanctuary Life: How to Eat Healthier, Live Longer, and Feel Better Every Day by Bringing Home the Happiest Place on Earth",
+		"author": "Gene Baur",
+		"rating": "4.25",
+		"started": "2015/06/03",
+		"finished": "2015/08/02",
+		"genre": "activism, cooking, non-fiction",
+		"review": "I love Gene Baur and Farm Sanctuary. But the stories about the farm, its inception, and Baur's advocacy are too few, too short, and too shallow for me to love this book. The recipe's in the back are great though. They understand the reality of being vegan in the United States, and speak from experience rather than test-kitchen abstracta.",
+		"goodreadsID": "22529434"
+	},
+	{
+		"title": "Why Not Socialism?",
+		"author": "Gerald A. Cohen",
+		"rating": "3.51",
+		"started": "2015/03/30",
+		"finished": "2015/08/02",
+		"genre": "non-fiction",
+		"review": "The most straight-forward possible introduction to socialism.",
+		"goodreadsID": "6764834"
+	},
+	{
+		"title": "Sweet Tooth, Vol. 6: Wild Game",
+		"author": "Jeff Lemire",
+		"rating": "4.31",
+		"started": "2015/05/31",
+		"finished": "2015/08/02",
+		"genre": "fiction, comics",
+		"review": "I love this series, but I feel like Lemire is confused at times about what the series is saying. The way Sweet Tooth responds to his brutal situation is at times idealistic, while at other times brutally survivalist. That's fine, but I think it keeps the work from being an ascendant piece of moral philosophy. Instead, it's just another grim survivor tale, with some really great hooks and characters.",
+		"goodreadsID": "17137619"
+	},
+	{
+		"title": "Sweet Tooth, Vol. 5: Unnatural Habitats",
+		"author": "Jeff Lemire",
+		"rating": "4.17",
+		"started": "2015/05/30",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "13532247"
+	},
+	{
+		"title": "Sweet Tooth, Vol. 4: Endangered Species",
+		"author": "Jeff Lemire",
+		"rating": "4.16",
+		"started": "2015/05/26",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "12213010"
+	},
+	{
+		"title": "Sweet Tooth, Vol. 3: Animal Armies",
+		"author": "Jeff Lemire",
+		"rating": "4.13",
+		"started": "2015/05/09",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "9921208"
+	},
+	{
+		"title": "Sweet Tooth, Vol. 2: In Captivity",
+		"author": "Jeff Lemire",
+		"rating": "4.10",
+		"started": "2015/04/16",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "8171206"
+	},
+	{
+		"title": "Sweet Tooth, Vol. 1: Out of the Deep Woods",
+		"author": "Jeff Lemire",
+		"rating": "3.90",
+		"started": "2015/04/01",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "6954438"
+	},
+	{
+		"title": "Daredevil by Brian Michael Bendis & Alex Maleev Ultimate Collection, Book 1",
+		"author": "Brian Michael Bendis",
+		"rating": "4.45",
+		"started": "2015/04/28",
+		"finished": "2015/08/02",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "8092501"
+	},
+	{
+		"title": "Heck",
+		"author": "Zander Cannon",
+		"rating": "4.06",
+		"started": "2015/05/04",
+		"finished": "2015/08/02",
+		"genre": "fiction, comics",
+		"review": "Terrific and unexpected. I only wish it had been a little longer, and explored some of the parenting themes more explicitly.",
+		"goodreadsID": "17194536"
+	},
+	{
+		"title": "The Dragon Reborn (Wheel of Time, #3)",
+		"author": "Robert Jordan",
+		"rating": "4.22",
+		"started": "2015/04/02",
+		"finished": "2015/08/02",
+		"genre": "fiction",
+		"review": "",
+		"goodreadsID": "34897"
+	},
+	{
+		"title": "The Great Hunt (Wheel of Time, #2)",
+		"author": "Robert Jordan",
+		"rating": "4.19",
+		"started": "2015/03/21",
+		"finished": "2015/08/02",
+		"genre": "fiction",
+		"review": "Dude does not fool around. The way this pays off in the end is just nuts. Very satisfying.",
+		"goodreadsID": "233649"
+	},
+	{
+		"title": "Handcrafted CSS: More Bulletproof Web Design",
+		"author": "Dan Cederholm",
+		"rating": "4.08",
+		"started": "2015/07/03",
+		"finished": "2015/06/11",
+		"genre": "non-fiction",
+		"review": "As with CSS Mastery, these solutions and technologies are sort of dated, but the high-level design / layout advice is priceless.",
+		"goodreadsID": "6583924"
+	},
+	{
+		"title": "Do Unto Animals: A Friendly Guide to How Animals Live, and How We Can Make Their Lives Better",
+		"author": "Tracey  Stewart",
+		"rating": "4.04",
+		"started": "2016/07/08",
+		"finished": "2015/04/26",
+		"genre": "",
+		"review": "There's nothing especially insightful here, and there's nothing new for anyone that's been paying attention at all to our general treatment of animals.<br/><br/>If anything there are some cute ideas about how to interact with some local wildlife, and a lot of pretty illustrations.<br/><br/>I do have one major complaint. There's a lot of talk of \"pest\" animals, which sucks in a book about living in better harmony with animals of all kinds. There's no reason to disparage any species as an inconvenience to us, even anonymously. I thought that was part of the author's point?<br/><br/>Also, I wanted to hear a lot more about her personal experience. What's it like to make your children hamburgers when you would \"jump in front of a train for [your] family, [your] dogs, and any cow...\"? Why isn't it more tragic that some animals must eat others when the lives of both animals are equally meaningful? There's a lot of \"hey, everyone's gotta eat!\" here that surprised me. ",
+		"goodreadsID": "24693031"
+	},
+	{
+		"title": "A Confederacy of Dunces",
+		"author": "John Kennedy Toole",
+		"rating": "3.88",
+		"started": "2015/08/01",
+		"finished": "2015/04/02",
+		"genre": "fiction",
+		"review": "",
+		"goodreadsID": "310612"
+	},
+	{
+		"title": "Asphalt Renaissance: The Pavement Art and 3-D Illusions of Kurt Wenner",
+		"author": "B. Hansen",
+		"rating": "4.50",
+		"started": "",
+		"finished": "2015/03/04",
+		"genre": "non-fiction",
+		"review": "",
+		"goodreadsID": "11202500"
+	},
+	{
+		"title": "Pavement Chalk Artist: The Three-Dimensional Drawings of Julian Beever",
+		"author": "Julian Beever",
+		"rating": "4.10",
+		"started": "",
+		"finished": "2015/03/04",
+		"genre": "non-fiction",
+		"review": "",
+		"goodreadsID": "14609695"
+	},
+	{
+		"title": "The Guerilla Art Kit",
+		"author": "Keri Smith",
+		"rating": "4.09",
+		"started": "",
+		"finished": "2015/03/03",
+		"genre": "non-fiction",
+		"review": "",
+		"goodreadsID": "1094740"
+	},
+	{
+		"title": "Mastering Copperplate Calligraphy: A Step-by-Step Manual",
+		"author": "Eleanor Winters",
+		"rating": "4.25",
+		"started": "",
+		"finished": "2015/02/19",
+		"genre": "non-fiction",
+		"review": "",
+		"goodreadsID": "621745"
+	},
+	{
+		"title": "Thor Visionaries: Walter Simonson, Vol. 1",
+		"author": "Walter Simonson",
+		"rating": "4.28",
+		"started": "2015/05/08",
+		"finished": "2015/02/18",
+		"genre": "comics, fiction",
+		"review": "",
+		"goodreadsID": "206201"
+	},
+	{
+		"title": "Habit Stacking: 97 Small Life Changes That Take Five Minutes or Less",
+		"author": "S.J. Scott",
+		"rating": "3.36",
+		"started": "2014/11/22",
+		"finished": "2014/11/21",
+		"genre": "",
+		"review": "Another book from the recent GMB <a href=http://gmb.io/recommended-books/?utm_source=GMB+Posse&utm_campaign=a65cf900e4-14_11_12_Books_US_11_11_2014&utm_medium=email&utm_term=0_8172152055-a65cf900e4-96633253>book list</a>.  The suggestion is that developing many habits is hard, but developing a single, well-organized sequence of habits overtime is much easier.  That seems right.  The useful information is presented in the first ten pages.  The rest is just a list of recommended habit changes.<br/><br/>The author also makes a point I've been seeing more and more lately: discipline is a fickle resource.  It's foolish to leave your goals (and happiness) to the whims of discipline.  It's much smarter to invest in unconscious, automatic, brain-washed routine.  Just be in control of what that routine is like.",
+		"goodreadsID": "22016365"
+	},
+	{
+		"title": "The Sixth Extinction: An Unnatural History",
+		"author": "Elizabeth Kolbert",
+		"rating": "4.06",
+		"started": "2015/04/02",
+		"finished": "2014/11/18",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "17910054"
+	},
+	{
+		"title": "To Kill a Mockingbird",
+		"author": "Harper Lee",
+		"rating": "4.25",
+		"started": "2014/11/17",
+		"finished": "2014/11/13",
+		"genre": "fiction",
+		"review": "It's weird writing a review of something so well-known.  What's the point?  Most people have read this already, likely by assignment during high school or middle school.  I never did, so I picked it up recently - as I sometimes do with \"classics\" - just as a talking piece.  I'm always happy to read what is widely read, because the odds go way up that someone I meet will want to discuss it.<br/><br/>Its influence on American culture is very obvious.  Just as <i>The Matrix</i> handed slow-motion and bullet-dodging to cinema, Harper Lee gave us the Holocaust/slavery analogy, which would become ubiquitous in moral discourse for the rest of the century.<br/><br/>Its structure does not always make sense.  It's pitched in the first chapter as a story within a story - a memory for characters long grown-up.  But that element is never important again, and is often at odds with the internal dialogue we hear in the book's narrator Scout.<br/><br/>That said, the books fame is well-deserved.  It is a masterpiece of moral education for all ages, the likes of which hasn't been seen since - which may never be seen again.<br/><br/>I will say that having read it now, I do not understand the ubiquitous praise of Atticus Finch.  As a father - of course.  He's awesome.  As a man, I dunno.  He's virtuous, yes, but for me the real hero will always be Finch's son, and Scout's older brother - Jim.",
+		"goodreadsID": "2657"
+	},
+	{
+		"title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
+		"author": "Randall Munroe",
+		"rating": "4.16",
+		"started": "2014/11/14",
+		"finished": "2014/11/13",
+		"genre": "",
+		"review": "This is the funniest book I've read in years.  I laughed so hard that my face and body hurt, numerous times.  I strongly recommend this book to anyone that enjoys mirth and/or merriment.  Seriously, it's so funny.  The ratio of hilarious commentary to careful presentation of science surely maps the limit.<br/><br/>In this book, Munroe attempts to give a rigorous, scientific answer to preposterous but interesting what-if questions from his fans.  It is full of wit and charm (as is Munroe's popular webcomic, XCKD), but in my favorite chapter he considers this question: what would happen if you made a periodic table out of cube-shaped bricks, where each brick was made of the corresponding element?<br/><br/>\"All in all, it's possible to get samples of about 80 of the elements - 90, if you're willing to take some risks with your health, safety, and arrest record.  The rest are too radioactive or short-lived to collect more than a few atoms of them at once...but what if you <i>did</i>?\"<br/><br/>Omgomg, the answer is so funny, I love this book so much, omg.  While reading it, I felt like a middle-schooler, bingeing on Calvin and Hobbes collections for the first time.  Honestly, that's some of the highest praise I can give a book.",
+		"goodreadsID": "21413662"
+	},
+	{
+		"title": "Dataclysm: Who We Are (When We Think No One's Looking)",
+		"author": "Christian Rudder",
+		"rating": "3.72",
+		"started": "2015/01/29",
+		"finished": "2014/11/12",
+		"genre": "activism",
+		"review": "",
+		"goodreadsID": "21480734"
+	},
+	{
+		"title": "Rise Above: 7 Strategies to Crush Adversity",
+		"author": "Nate Miyaki",
+		"rating": "4.20",
+		"started": "2014/11/19",
+		"finished": "2014/11/12",
+		"genre": "",
+		"review": "I only read self-help books occasionally, when I am curious to know why they have been recommended.  An online gym I follow, GMB, recently posted a list of its staff-favorite <a href=http://gmb.io/recommended-books/?utm_source=GMB+Posse&utm_campaign=a65cf900e4-14_11_12_Books_US_11_11_2014&utm_medium=email&utm_term=0_8172152055-a65cf900e4-96633253>book list</a>.  I liked the cover, so I picked this up first.<br/><br/>It's brief and direct, and thus, powerful.  It's a little douchey at times...the number of Bruce Lee quotes is pretty frat.  Then again, Bruce Lee was an incredible man, with wisdom to share.<br/><br/>It's best advice is - like most good advice - what you already know.  Live for yourself, not other people.  Your time is precious and short, so treat it as such.  Spend energy on what matters to you, not on the grind.  But I find it refreshing to hear these things out loud now and then, and I certainly felt inspired to improve when I'd finished.<br/><br/>The advice that grabbed me best is this, from pg. 20:<br/><br/><i>\"Being wise is gung fu does not mean adding more but being able to remove sophistication and ornamentation and be simply simple - like a sculptor building a statue not by adding, but by hacking away the unessential so that the truth will be revealed unobstructed.\" - Bruce Lee</i><br/><br/>Hack away the unesential so you can find clarity, and have enough time and energy for what is really important in life.<br/><br/>What's best in life?  Your passions and the people you love.  That's it.  Eliminate everything else that is unrelated.<br/><br/>Make a list of your top 1-3 passion(s) in life.  Make sure most of your day focuses on them.<br/><br/>Make a list of the 3 most important people in your life.  Guard against anythiing or anyone that tries to take you away from them.<br/><br/>Learn to say no - to obligations, time-suckers, energy-drainers, distractions, and meaningless tasks.<br/><br/>Spend time with the people you love and do what you enjoy and are passionate about.  From these, you will figure out your purpose.  And once you have a purpose, you will find peace.",
+		"goodreadsID": "22914929"
+	},
+	{
+		"title": "Naked Statistics: Stripping the Dread from the Data",
+		"author": "Charles Wheelan",
+		"rating": "3.84",
+		"started": "2015/01/02",
+		"finished": "2014/10/31",
+		"genre": "activism",
+		"review": "",
+		"goodreadsID": "17986418"
+	},
+	{
+		"title": "The Witches",
+		"author": "Roald Dahl",
+		"rating": "4.16",
+		"started": "2015/08/01",
+		"finished": "2014/10/30",
+		"genre": "fiction",
+		"review": "",
+		"goodreadsID": "6327"
+	},
+	{
+		"title": "Slaughterhouse: The Shocking Story of Greed, Neglect, And Inhumane Treatment Inside the U.S. Meat Industry",
+		"author": "Gail A. Eisnitz",
+		"rating": "4.33",
+		"started": "2014/10/15",
+		"finished": "2014/10/16",
+		"genre": "activism",
+		"review": "Eisnitz's writing is short and clear, and easy to read, even if her subject is not.  It is also largely composed of direct quotes and affidavits of real people working for the meat industry in one aspect or another.  Compelling evidence, horrifying truths.  One of the most important consumer advocate books ever written.  The spiritual sequel to The Jungle, in which everything gets worse than it was.  It is difficult to believe nearly everything inside - but all of the evidence is so widely available, that it is harder to deny.<br/><br/>An awesome book, in the biblical sense - this story of greed and disregard for human welfare is truly awful.<br/><br/>EDIT: It is unfathomable just how terrible things have become in the meat industry - for the animals of course, and also the people who work in it, and the people who consume its products. Here are a few statements from the book that have stuck with me...some of which are more haunting than others.<br/><br/>A summary of the problem with the USDA's role in protecting anyone:<br/>\" “Congress has assigned USDA two radically opposing missions,” explained GAP’s Tom Devine over the phone. “The very same officials who are charged with promoting te sale of agricultural products are also supposed to protect the consumers from filth and unscrupulous practices.”  As a result of the USDA’s duplicitous mandate and its primary focus on marketing, the department’s ranks have long been filled with industry leaders who have demonstrated their ablates at increasing industry profits. \" - pg. 175<br/><br/>A comment on the industries regard for the people it destroys:<br/>\"With nearly thirty six injuries or illnesses for every one hundred workers, meat packing is the most dangerous industry in the United States.  In fact, a worker’s chances of suffering an injury or an illness in a meat plant are six times greater than if that same person worked in a coal mine...Disabled workers, like many of those above, find it impossible to ever work again.  Drained of their usefulness to the slaughterhouse, they’re cast aside, reminders of a system that places nearly as little value on human life as it does on animal life.\" - pg. 197<br/><br/>A clinical description of the horrors of hen recycling:<br/>\"After a year of producing nearly an egg a day, the survivors are gassed or ground up alive to be fed back to other chickens; slaughtered for use in the school luch program or in pet food, says Feedstuffs, an industry trade magazine; or “recycled” to spend to another laying cycle in the crowded cages.  To shorten the hens’ natural resting period between laying cycles, farmers deprive “recycled” birds of all food for from five to fifteen days.  The practice, called forced molting, shocks the hens into abruptly shedding their feathers, and hastens the beginning of a new and simultaneous laying cycle.  During this process, about a third of the birds die from starvation and acute stress.  The fate of the emaciated survivors: another laying cycle in the battery cage.\" - pg. 126<br/><br/>and a succinct demand for decency from one good man, Senator Robert Byrd:<br/>“Federal law is being ignored,” he said. “Animal cruelty abounds.  It is infuriating.  The barbaric treatment of helpless, defenseless creatures must not be tolerated…such insensitivity is insidious and dangerous.  Life must be dealt with humanely in a civilized society.” - pg. 217",
+		"goodreadsID": "31474"
+	},
+	{
+		"title": "Dominion: The Power of Man, the Suffering of Animals, and the Call to Mercy",
+		"author": "Matthew Scully",
+		"rating": "4.16",
+		"started": "2015/01/30",
+		"finished": "2014/10/11",
+		"genre": "activism",
+		"review": "",
+		"goodreadsID": "7260"
+	},
+	{
+		"title": "The Pornography of Meat",
+		"author": "Carol J. Adams",
+		"rating": "3.83",
+		"started": "2015/02/05",
+		"finished": "2014/10/11",
+		"genre": "activism",
+		"review": "",
+		"goodreadsID": "239603"
+	},
+	{
+		"title": "Countdown: Our Last Best Hope for a Future on Earth?",
+		"author": "Alan Weisman",
+		"rating": "4.14",
+		"started": "2015/03/04",
+		"finished": "2014/09/13",
+		"genre": "activism",
+		"review": "",
+		"goodreadsID": "17332183"
+	},
+	{
+		"title": "Eating Animals",
+		"author": "Jonathan Safran Foer",
+		"rating": "4.16",
+		"started": "2014/04/01",
+		"finished": "2014/08/21",
+		"genre": "activism",
+		"review": "Very frank philosophy.  Strong journalism that makes a philosophical stance.  The intro is kind of weak, and it doesn't represent the strength of the rest of the book.",
+		"goodreadsID": "6604712"
+	},
+	{
+		"title": "The Accidental Activist: Stories, Speeches, Articles, and Interviews by Vegan Outreach's Cofounder",
+		"author": "Matt Ball",
+		"rating": "4.00",
+		"started": "2014/10/31",
+		"finished": "2014/08/21",
+		"genre": "activism",
+		"review": "This is just a collection of speeches, blog posts, interviews and excerpts from Matt Ball's long career as an animal activist - founder of Vegan Outreach.  It's definitely an important, thought-provoking book for those interested in any activism, but especially where it regards animals.<br/><br/>His advice is best summarized by the Brazilian Landless Farmers slogan:<br/><br/>\"'Expand the floor of the cage before you try to break out.'  It is a way of saying that activists should try to improve the status quo in order to have more room in which to work toward a permanent solution.  This belief = that one can support efforts that improve welfare and increase awareness while working for liberation – marks [our] within the animal liberation movement\" - pg. 96<br/><br/>His methods face philosophic problems (he claims to be an ardent utilitarian, but flatly confuses any questions about how much suffering <i>we each</i> cause by paying for animal products).  His advice is also not specifically helpful (does he really want us to eat cheese pizzas if it will make change seem less scary to omnivores?).  But the wisdom of his words is still clear:<br/><br/>\"People are looking for a reason to ignore the cruelties of factory farming and the ethical imperative of changing their diet.  No one sits around thinking, “Wow, I really want to give up all my favorite foods and be different from my friends and family!”<br/>We are the animals’ only voice.  If we want to have the greatest impact for these animals, we should not give anyone any excuse to ignore the terrible and unnecessary suffering the animals go through on factory farms and in slaughterhouses.\" - pg. 103<br/><br/>and of course:<br/>\"Given the reality of our world – the widespread injustices and the tremendous demands on our very limited time and resources – nearly every choice we face offers us imperfect options.\" - pg. 101<br/><br/>His insistence on being realistic, honest, and positive are so refreshing, after being steeped in the unbearable reality of human disregard for animals today.  I would call it a must-read activist handbook.",
+		"goodreadsID": "22087101"
+	},
+	{
+		"title": "For the Prevention of Cruelty: The History and Legacy of Animal Rights Activism in the United States",
+		"author": "Diane L. Beers",
+		"rating": "4.00",
+		"started": "2014/10/16",
+		"finished": "2014/08/19",
+		"genre": "activism",
+		"review": "A nice textbook history of the early Western animal advocacy movement. It's very academic, which is good and bad. Its best material demonstrates the intimacy between animal issues and other social issues of the time, including suffrage and civil rights. It's a good starter book for thinking about activist coalitions, which I'm convinced is the future of global activism.",
+		"goodreadsID": "157278"
+	},
+	{
+		"title": "Scorpions",
+		"author": "Manny Rubio",
+		"rating": "3.79",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "271013"
+	},
+	{
+		"title": "The Rise of Theodore Roosevelt",
+		"author": "Edmund Morris",
+		"rating": "4.24",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "9889561"
+	},
+	{
+		"title": "The Hunger Games (The Hunger Games, #1)",
+		"author": "Suzanne Collins",
+		"rating": "4.36",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "18626858"
+	},
+	{
+		"title": "The Art of Manliness - Manvotionals: Timeless Wisdom and Advice on Living the 7 Manly Virtues",
+		"author": "Brett McKay",
+		"rating": "4.26",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "19074536"
+	},
+	{
+		"title": "Metaphysics: Classic and Contemporary Readings",
+		"author": "Ronald C. Hoy",
+		"rating": "3.80",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "208046"
+	},
+	{
+		"title": "The Grammar Book: An ESL/EFL Teacher's Course",
+		"author": "Marianne Cele-Murcia",
+		"rating": "4.03",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "738291"
+	},
+	{
+		"title": "The Reveries of the Solitary Walker",
+		"author": "Jean-Jacques Rousseau",
+		"rating": "3.69",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "22172378"
+	},
+	{
+		"title": "The Confessions of J. J. Rousseau - Complete",
+		"author": "Jean-Jacques Rousseau",
+		"rating": "3.61",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "18850255"
+	},
+	{
+		"title": "Techniques and Principles in Language Teaching 3rd edition (Teaching Techniques in English as a Second Language)",
+		"author": "Diane Larsen-Freeman",
+		"rating": "3.85",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "19250119"
+	},
+	{
+		"title": "The Scarlet Letter",
+		"author": "Nathaniel Hawthorne",
+		"rating": "3.36",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "16460626"
+	},
+	{
+		"title": "The Legend of Zelda: Hyrule Historia",
+		"author": "Patrick Thorpe",
+		"rating": "4.58",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "15845097"
+	},
+	{
+		"title": "Julie, or the New Heloise: Letters of Two Lovers Who Live in a Small Town at the Foot of the Alps (Rousseau, Jean-Jacques, Works. Vol. 6.)",
+		"author": "Jean-Jacques Rousseau",
+		"rating": "3.38",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "12564053"
+	},
+	{
+		"title": "The Works of Jean-Jacques Rousseau: The Social Contract, Confessions, Emile, and Other Essays (Halcyon Classics)",
+		"author": "Jean-Jacques Rousseau",
+		"rating": "4.19",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "18927710"
+	},
+	{
+		"title": "MIND MGMT, Vol. 2: The Futurist",
+		"author": "Matt Kindt",
+		"rating": "4.24",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "17927470"
+	},
+	{
+		"title": "MIND MGMT, Vol. 1: The Manager",
+		"author": "Matt Kindt",
+		"rating": "4.02",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "16255052"
+	},
+	{
+		"title": "Yotsuba&!, Vol. 02 (Yotsuba&! #2)",
+		"author": "Kiyohiko Azuma",
+		"rating": "4.51",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "6568509"
+	},
+	{
+		"title": "The King in Yellow",
+		"author": "Robert W. Chambers",
+		"rating": "3.57",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "17211636"
+	},
+	{
+		"title": "Yotsuba&!, Vol. 01 (Yotsuba&! #1)",
+		"author": "Kiyohiko Azuma",
+		"rating": "4.34",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "6753060"
+	},
+	{
+		"title": "The Passion of Gengoroh Tagame: Master of Gay Erotic Manga",
+		"author": "Gengoroh Tagame",
+		"rating": "3.99",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "17193551"
+	},
+	{
+		"title": "The Manara Library, Vol. 1: Indian Summer and Other Stories",
+		"author": "Milo Manara",
+		"rating": "3.75",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "11755460"
+	},
+	{
+		"title": "The Bread Bible",
+		"author": "Rose Levy Beranbaum",
+		"rating": "4.20",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "19408743"
+	},
+	{
+		"title": "Hawkeye, Vol. 1: My Life as a Weapon (Marvel NOW!) (Hawkeye Series)",
+		"author": "Matt Fraction",
+		"rating": "4.17",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "18690153"
+	},
+	{
+		"title": "For the Prevention of Cruelty: The History and Legacy of Animal Rights Activism in the United States",
+		"author": "Diane L. Beers",
+		"rating": "4.00",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "20990760"
+	},
+	{
+		"title": "The Great Gatsby",
+		"author": "F. Scott Fitzgerald",
+		"rating": "3.87",
+		"started": "",
+		"finished": "2014/08/19",
+		"genre": "",
+		"review": "",
+		"goodreadsID": "4671"
+	}
+]

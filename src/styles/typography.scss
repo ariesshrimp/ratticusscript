@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ClearSans';
+    src: url('./fonts/ClearSans-Medium.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Born';
+    src: url('./fonts/Born.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'ComputerModern';
+    src: url('./fonts/cmunrm.woff') format('woff');
+}
+
+h1 {
+  font-family: 'ClearSans';
+}
+
+body {
+  font-size: 1.2em;
+  font-family: 'ComputerModern';
+}

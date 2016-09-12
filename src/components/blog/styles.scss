@@ -1,0 +1,29 @@
+.date {
+  display: block;
+  font-style: italic;
+  margin-bottom: 0.4em;
+}
+
+.tags {
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 0.5em;
+  background: rgba(0,0,0,0.2);
+  border-radius: 1%;
+}
+
+.list {
+  list-style: none;
+}
+
+.listItemTitle {
+  display: block;
+  color: #f4f4f4;
+  font-weight: bold;
+  margin-bottom: 1.4em;
+}
+
+// General Typography for blog posts ↓
+.title {
+  margin-bottom: 0.6em;
+}

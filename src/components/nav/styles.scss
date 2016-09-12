@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 1em;
+
+  background: white;
+  box-shadow: 5px 1px 5px rgba(0,0,0,0.4);
+}
+
+.link {
+  color: #3f3f3f;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.active {
+  font-size: 1.2em;
+  text-decoration: none;
+}

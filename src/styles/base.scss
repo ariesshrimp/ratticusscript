@@ -1,0 +1,21 @@
+@import './resets.scss';
+@import './typography.scss';
+
+body {
+  background: #2a7dff;
+  color: #f4f4f4;
+}
+
+.main {
+  padding: 0.4em 2.6em;
+}
+
+p {
+  margin-bottom: 0.8em;
+  line-height: 1.2;
+}
+
+blockquote {
+  font-style: italic;
+  padding: 0.06em 2em;
+}
