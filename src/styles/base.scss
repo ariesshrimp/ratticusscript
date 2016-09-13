@@ -6,11 +6,32 @@ body {
   color: rgba(51,0,0,0.9);
 
   box-shadow: inset -10 0 2rem rgba(0,0,0,0.125);
+  font-size: 1em;
+  line-height: 1.875;
 }
 
 // ./components/footer shares this padding.
 .main {
-  padding: 1% 6%;
+  padding: 1% 5%;
+
+  @media screen and (min-width: 30em) {
+    padding: 1% 7.5%;
+  }
+
+  @media screen and (min-width: 45em) {
+    font-size: 106.25%;
+    padding: 1% 10%;
+  }
+
+  @media screen and (min-width: 60em) {
+    font-size: 106.25%;
+    padding: 1% 12.5%;
+  }
+
+  @media screen and (min-width: 75em) {
+    font-size: 112.5%;
+    padding: 1% 15%;
+  }
 }
 
 p {

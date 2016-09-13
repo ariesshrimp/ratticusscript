@@ -1,7 +1,23 @@
+.list {
+  list-style: none;
+}
+
+.articleHead {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.title {
+  color: #665;
+  font-weight: normal;
+}
+
 .date {
-  display: block;
+  color: #665;
   font-style: italic;
-  margin-bottom: 0.4em;
+  font-weight: normal;
+  margin-top: 0;
+  text-align: center;
 }
 
 .lead {
@@ -20,21 +36,4 @@
   padding: 0.5em;
   background: rgba(0,0,0,0.05);
   border-radius: 1%;
-}
-
-.list {
-  list-style: none;
-}
-
-.listItemTitle {
-  display: block;
-  color: #665;
-  font-style: italic;
-  font-weight: normal;
-  margin-bottom: 1.4em;
-}
-
-// General Typography for blog posts ↓
-.title {
-  margin-bottom: 0.6em;
 }
