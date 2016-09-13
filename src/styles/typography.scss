@@ -1,23 +1,30 @@
-@font-face {
-    font-family: 'ClearSans';
-    src: url('./fonts/ClearSans-Medium.woff') format('woff')
-}
-
-@font-face {
-    font-family: 'Born';
-    src: url('./fonts/Born.otf') format('otf');
-}
-
-@font-face {
-    font-family: 'ComputerModern';
-    src: url('./fonts/cmunrm.woff') format('woff');
+h1, h2, h3, h4 {
+  font-family: Baskerville, Georgia, serif;
+  font-weight: normal;
+  letter-spacing: .1em;
 }
 
 h1 {
-  font-family: 'ClearSans';
+  font-size: 2.5em;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 1.3333;
+}
+
+a {
+  color: #900;
 }
 
 body {
-  font-size: 1.2em;
-  font-family: 'ComputerModern';
+  font-size: 1rem;
+  line-height: 1.875;
+  font-family: Georgia, serif;
 }

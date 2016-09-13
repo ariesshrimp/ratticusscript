@@ -2,17 +2,19 @@
 @import './typography.scss';
 
 body {
-  background: #2a7dff;
-  color: #f4f4f4;
+  background: #ffe;
+  color: rgba(51,0,0,0.9);
+
+  box-shadow: inset -10 0 2rem rgba(0,0,0,0.125);
 }
 
+// ./components/footer shares this padding.
 .main {
-  padding: 0.4em 2.6em;
+  padding: 1% 6%;
 }
 
 p {
   margin-bottom: 0.8em;
-  line-height: 1.2;
 }
 
 blockquote {

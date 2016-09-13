@@ -4,11 +4,21 @@
   margin-bottom: 0.4em;
 }
 
+.lead {
+  font-size: 1.25em;
+  line-height: 1.5;
+
+  &:first-letter {
+    font-family: Baskerville,Georgia,serif;
+    font-size: 3em;
+    line-height: .5;
+  }
+}
+
 .tags {
   font-size: 0.7em;
-  font-weight: 600;
   padding: 0.5em;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.05);
   border-radius: 1%;
 }
 
@@ -18,8 +28,9 @@
 
 .listItemTitle {
   display: block;
-  color: #f4f4f4;
-  font-weight: bold;
+  color: #665;
+  font-style: italic;
+  font-weight: normal;
   margin-bottom: 1.4em;
 }
 

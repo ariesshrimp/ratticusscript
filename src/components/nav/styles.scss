@@ -1,21 +1,38 @@
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
   padding: 1em;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Baskerville, Georgia, serif;
+  padding: 0;
+  margin: 1em 0;
 
-  background: white;
-  box-shadow: 5px 1px 5px rgba(0,0,0,0.4);
+  @media screen and (max-width: 540px) {
+    flex-flow: wrap;
+    justify-content: center;
+  }
 }
 
 .link {
-  color: #3f3f3f;
-  font-weight: bold;
-  font-variant: small-caps;
+    margin: 1em;
+    text-decoration: none;
+    color: #900;
+    border-color: #900;
+    padding: 0 .5em;
+    font-weight: normal;
+    border-width: 2px 0;
+    border-style: solid;
+
+    @media screen and (max-width: 540px) {
+      border: none;
+      text-decoration: underline;
+      margin: 0;
+    }
 }
 
 .active {
-  font-size: 1.2em;
-  text-decoration: none;
 }

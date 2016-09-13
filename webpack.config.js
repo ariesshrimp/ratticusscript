@@ -28,8 +28,8 @@ module.exports = {
       { test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.json$/, loader: 'json' },
       { test: /\.md$/, loaders: ['html', 'highlight', 'markdown', 'front-matter?onlyBody'] },
-      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[local]__[name]__[path]___[hash:base64:5]!sass') },
-      { test: /\.(woff|otf)$/, loader: 'url' }
+      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[emoji:5]!sass') },
+      { test: /\.(woff|otf|png)$/, loader: 'url' }
     ]
   },
   plugins: [

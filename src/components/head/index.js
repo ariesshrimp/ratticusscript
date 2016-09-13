@@ -1,6 +1,8 @@
 import React from 'react'
 
 export const Head = props => {
+  // TODO:jmf be smarter about how this works: just add a meta property to the
+  // front-matter of any post that contains code in need of highlights
 
   // Only include the highlight styles if we're on a blog post page
   const highlightMarkdownCSS = props.isBlogPost
@@ -13,6 +15,6 @@ export const Head = props => {
 
     { highlightMarkdownCSS }
 
-    <link href={ `${ props.distanceToRoot }styles.css` } rel="stylesheet"/>
+    <link href="/styles.css" rel="stylesheet"/>
   </head>
 }

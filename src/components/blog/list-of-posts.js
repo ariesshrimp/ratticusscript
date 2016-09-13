@@ -11,7 +11,7 @@ import CSS from './styles.scss'
 export const LinkToPost = ({ post }) => {
   const { attributes: meta } = post.meta
   const date = Moment(meta.date).format('LLLL')
-  return <Link to={`/posts/${ post.name }`} className={ CSS.listItemTitle }>{ date }</Link>
+  return <h3  className={ CSS.listItemTitle }><Link to={`/posts/${ post.name }`}>{ date }</Link></h3>
 }
 
 export const PostPreview = ({ post }) => {
@@ -19,6 +19,7 @@ export const PostPreview = ({ post }) => {
   const previewText = post.content
   return <div>
     <LinkToPost post={ post }/>
+    <p className={ CSS.lead }>{ post.meta.attributes.description }</p>
     <article dangerouslySetInnerHTML={ createMarkup(previewText) }></article>
     <BlogTags tags={ post.meta.attributes.tags } />
   </div>
