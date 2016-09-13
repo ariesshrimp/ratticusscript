@@ -1,5 +1,4 @@
 ## Full-Stack Developer & Philosopher  
-Visit [joefraley.github.io/resume](https://joefraley.github.io/resume) for HTML version  
 Portfolio: [joefraley.github.io](https://joefraley.github.io)  
 GitHub: [https://www.github.com/joefraley](https://github.com/joefraley)  
 Email: [jose.fraley@gmail.com](mailto:jose.fraley@gmail.com)  
@@ -18,12 +17,16 @@ Major retooling of legacy build-process using Webpack.
 
 Wrote and contributed back to open source projects like:  
 
-[**React Styleguide Generator**](https://github.com/pocotan001/react-styleguide-generator), [**Zurb: Responsive Email Template Boilerplate**](https://github.com/joefraley/responsive-email-template-boilerplate)  
+[**React Styleguide Generator**](https://github.com/pocotan001/react-styleguide-generator)  
+[**Zurb: Responsive Email Template Boilerplate**](https://github.com/joefraley/responsive-email-template-boilerplate)  
 
-    Technical Environment: JavaScript, React, Python,  
-    Node, Git, HTML, Sass, Mocha, Google Analytics  
-    Team Environment: Slack, Trello, Stash,  
-    Jira, Bamboo  
+    Technical Environment:
+      JavaScript React Python  
+      Node Git HTML Sass
+      Mocha GoogleAnalytics  
+    Team Environment:
+      Slack Trello Stash  
+      Jira Bamboo  
 
 **JavaScript Writer & Research** | [**Team Treehouse**](https://www.teamtreehouse.com/)  
 *December 2015 - April 2016*  
@@ -36,7 +39,10 @@ Produced high-quality content in line with Treehouse standard of excellence in e
 
 Current courses include: [JavaScript Unit Testing](https://teamtreehouse.com/library/javascript-unit-testing)  
 
-    Technical Environment: JavaScript, Mocha, Chai, Node, npm, OOP, Markdown, Git
+    Technical Environment:
+      JavaScript Mocha Chai Node  
+      npm Object-Oriented programming Markdown  
+      Git
 
 **Lead Developer** | [**PopSockets**](https://www.popsockets.com)  
 *May 2015 - August 2015*  
@@ -47,7 +53,9 @@ Built templates & responsive client-side tools, & integrated designs from other 
 
 Emphasized modern web standards like flexbox.  
 
-    Technical Environment: Shopify eCommerce Platform, Bootstrap, JavaScript , jQuery, CSS3
+    Technical Environment:
+      Shopify eCommerce Platform Bootstrap JavaScript  
+      jQuery, CSS3
 
 **Instructor** | **University of Colorado, Boulder**   
 *August 2013 - May 2014*  
@@ -64,7 +72,9 @@ Wrote automation scripts using the Google App platform to expedite article clean
 As a team, implemented a distributed workflow for software volunteers using Git, Github, and the Wordpress plugin ecosystem.  
 General JavaScript & architecture consultation.  
 
-    Technical Environment: JavaScript, Google Apps, Git, CSS3 / HTML5, Wordpress
+    Technical Environment:
+      JavaScript Google Apps Git
+      CSS3 / HTML5 Wordpress
 
 **Front-end Developer** | [**XRAY.FM**](https://www.xray.fm)  
 *December 2015 - April 2016*  
@@ -73,7 +83,8 @@ General design implementation, markup. Built mobile-frist / responsive pages, in
 
 For example: the [XRAY membership page](http://xray.fm/membership)  
 
-    Technical Environment: CSS3 / HTML5, Custom CMS
+    Technical Environment:
+      CSS3 / HTML5 Custom CMS
 
 **Portland Elm Meetup Group Founder** | [Portland Elm Group](https://www.meetup.com/portlandelm/)  
 *March 2016 - June 2016*  
