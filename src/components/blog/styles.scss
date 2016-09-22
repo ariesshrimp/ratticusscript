@@ -1,4 +1,4 @@
-.list {
+.list > li {
   list-style: none;
 }
 
@@ -7,17 +7,28 @@
   margin-bottom: 2em;
 }
 
+.previewHead {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+.preview {
+  * {
+    margin: 0.5em 0;
+  }
+
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
 .title {
-  color: #665;
-  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 2px solid
 }
 
 .date {
   color: #665;
   font-style: italic;
   font-weight: normal;
-  margin-top: 0;
-  text-align: center;
 }
 
 .lead {
@@ -25,7 +36,7 @@
   line-height: 1.5;
 
   &:first-letter {
-    font-family: Baskerville,Georgia,serif;
+    font-family: Baskerville, Georgia, serif;
     font-size: 3em;
     line-height: .5;
   }

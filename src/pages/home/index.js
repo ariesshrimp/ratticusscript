@@ -12,7 +12,7 @@ export const HomePage = props => {
   return <section className="home">
     <header className={ CSS.header }>
       <ProfilePhoto />
-      <div className={ CSS.intro }>
+      <div role="introduction" className={ CSS.intro }>
         <h1>Joe Fraley</h1>
         <p>Just hoping to leave the world a little better than I found it.</p>
       </div>

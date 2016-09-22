@@ -1,8 +1,30 @@
 .footer {
-  padding: 1% 6%;
   font-size: 0.8em;
 
   a {
     color: #333;
+  }
+
+  border-top: 4px double rgba(0,0,0,0.2);
+
+  margin: 1% 5%;
+
+  @media screen and (min-width: 30em) {
+    margin: 1% 7.5%;
+  }
+
+  @media screen and (min-width: 45em) {
+    font-size: 106.25%;
+    margin: 1% 10%;
+  }
+
+  @media screen and (min-width: 60em) {
+    font-size: 106.25%;
+    margin: 1% 12.5%;
+  }
+
+  @media screen and (min-width: 75em) {
+    font-size: 112.5%;
+    margin: 1% 15%;
   }
 }

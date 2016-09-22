@@ -16,9 +16,9 @@ export const BlogPost = props => {
 
   return <article>
     {/* Blog metadata */}
-    <div className={ CSS.meta }>
-      <h1 className={ CSS.title }>{ meta.title }</h1>
-      <time className={ CSS.date }>{ date }</time>
+    <div className={ CSS.articleHead }>
+      <h1>{ meta.title }</h1>
+      <h3 className={ CSS.date }><time>{ date }</time></h3>
     </div>
     <hr></hr>
 

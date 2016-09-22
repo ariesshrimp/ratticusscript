@@ -14,10 +14,10 @@ import CSS from './styles/base.scss'
 export default props => {
 
   // Check whether this is a blog post so that we can load specific stylesheets.
-  const isBlogPost = props.locals.path.includes('posts')
+  const needsHighlight = props.locals.path.includes('posts') || props.locals.path.includes('posts')
 
   return <html lang="en">
-    <Head isBlogPost={ isBlogPost }/>
+    <Head needsHighlight={ needsHighlight }/>
     <body>
         <main id="content" dangerouslySetInnerHTML={ props.reactApp } ></main>
     </body>

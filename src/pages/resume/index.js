@@ -12,7 +12,7 @@ export const ResumePage = props => {
       <h1 className={ CSS.header }>Resume</h1>
       <Resume />
       <form method="get" action="/resume.pdf">
-        <button type="submit">Download a PDF Copy</button>
+        <button type="submit" role="download">Download a PDF Copy</button>
       </form>
   </section>
 }

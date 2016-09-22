@@ -5,7 +5,7 @@ export const Head = props => {
   // front-matter of any post that contains code in need of highlights
 
   // Only include the highlight styles if we're on a blog post page
-  const highlightMarkdownCSS = props.isBlogPost
+  const highlightMarkdownCSS = props.needsHighlight
       ? <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-light.min.css" rel="stylesheet"/>
       : null
 

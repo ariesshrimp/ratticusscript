@@ -40,9 +40,10 @@
   },
   "scripts": {
     "test": "live-server public",
-    "build": "rm -rf public && babel-node node_modules/.bin/webpack",
+    "build": "rm -rf public && babel-node node_modules/.bin/webpack && cp ./src/pages/resume/resume.pdf ./public",
     "dev": "babel-node node_modules/.bin/webpack-dev-server",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy",
+    "resume": "cp ./src/pages/resume/resume.pdf ./public"
   },
   "author": "Joe Fraley",
   "license": "ISC"

@@ -29,7 +29,8 @@ module.exports = {
       { test: /\.json$/, loader: 'json' },
       { test: /\.md$/, loaders: ['html', 'highlight', 'markdown', 'front-matter?onlyBody'] },
       { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[emoji:5]!sass') },
-      { test: /\.(woff|otf|png)$/, loader: 'url' }
+      { test: /\.(woff|otf|png)$/, loader: 'url' },
+      { test: /\.(jpg|JPG)$/, loader: 'file' }
     ]
   },
   plugins: [

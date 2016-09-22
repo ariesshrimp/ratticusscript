@@ -1,8 +1,8 @@
 import Path from 'path-browserify'
 import Moment from 'moment'
 
-const sortPosts = posts => {
-  return posts.sort(({ meta: A }, { meta: B }) => {
+export const sortPosts = posts => {
+  const sorted = posts.sort(({ meta: A }, { meta: B }) => {
 
     let { date: dateA } = A.attributes
     let { date: dateB } = B.attributes
@@ -10,8 +10,9 @@ const sortPosts = posts => {
     dateB = Moment(dateB)
 
     if (dateA === dateB) return 0
-    return dateA > dateB ? 1 : -1
+    return dateA < dateB ? 1 : -1
   })
+  return sorted
 }
 
 export const getPosts = () => {

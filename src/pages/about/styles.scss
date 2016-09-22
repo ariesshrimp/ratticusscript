@@ -2,3 +2,34 @@
   text-align: center;
   padding: 0 0 .5em;
 }
+
+h2 {
+  text-align: center;
+  margin: .7em 0;
+}
+
+.image {
+  display: block;
+  width: 48%;
+  margin: 1%;
+
+  @media screen and (min-width: 30em) {
+    width: 31%;
+  }
+
+  @media screen and (min-width: 45em) {
+    width: 23%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.imageGrid {
+  margin: .7em 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
