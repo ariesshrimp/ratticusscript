@@ -4,6 +4,8 @@
   "description": "A working, up-to-date example of how to use static-site-generator-webpack-plugin with react-router.",
   "main": "webpack.config.js",
   "dependencies": {
+    "medium-sdk": "0.0.3",
+    "node-twitter": "^0.5.3",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-router": "^2.7.0"
