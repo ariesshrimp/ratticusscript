@@ -4,3 +4,9 @@
   border: none;
   box-sizing: border-box;
 }
+
+:global {
+  .hljs {
+    overflow-x: auto;
+  }
+}
