@@ -20,7 +20,6 @@ export const BlogPost = props => {
       <h1>{ meta.title }</h1>
       <h3 className={ CSS.date }><time>{ date }</time></h3>
     </div>
-    <hr></hr>
 
     {/* Actual blog content */}
     <div dangerouslySetInnerHTML={ createMarkup(post.content) }></div>

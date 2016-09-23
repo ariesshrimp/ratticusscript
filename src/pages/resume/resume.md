@@ -86,15 +86,18 @@ A single-page web application for tracking your lost pets, by crowd-sourcing com
 Makes interesting use of the Google Maps JavaScript API, as well as a number of Node modules and client tools for image manipulation.  
 
 ### Education   
-#### Full-Stack JavaScript *2015*   
+#### Full-Stack JavaScript  
+##### 2015  
 Portland Code School  
 
-#### MA, Philosophy *2012-2014*  
+#### MA, Philosophy  
+##### 2012-2014  
 University of Colorado, Boulder  
 Emphasis in metaphysics, philosophy of language, & ethics.  
 Thesis: *Vagueness & Fundamentality*, 2014  
 
-#### BA, Philosophy *2009-2011*  
+#### BA, Philosophy  
+##### 2009-2011  
 Western Washington University  
 Paul J. & Rebecca Olscamp Scholarship 2009-2011. Outstanding Graduate, 2011.  Vice President of Philosophy Club, 2010-2011.  
 

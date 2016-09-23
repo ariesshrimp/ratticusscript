@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
 
-  padding: 1em;
+  padding-top: 1.2em;
+  padding-bottom: 1em;
   list-style: none;
   text-align: center;
   text-transform: uppercase;
   font-family: Baskerville, Georgia, serif;
-  padding: 0;
   margin: 1em 0;
 
   @media screen and (max-width: 540px) {
@@ -19,6 +19,7 @@
 
 .link {
     margin: 1em;
+    letter-spacing: 0.2em;
     text-decoration: none;
     color: #900;
     border-color: #900;
