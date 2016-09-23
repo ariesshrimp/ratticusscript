@@ -46,7 +46,8 @@
     "build": "rm -rf public && babel-node node_modules/.bin/webpack && cp ./src/pages/resume/resume.pdf ./public",
     "dev": "babel-node node_modules/.bin/webpack-dev-server",
     "deploy": "firebase deploy",
-    "resume": "cp ./src/pages/resume/resume.pdf ./public"
+    "resume": "cp ./src/pages/resume/resume.pdf ./public",
+    "medium": "cd utilities/medium && node ../../node_modules/.bin/babel-node ../../node_modules/.bin/webpack --config ./webpack.config.js && node ./bundle.js && rm bundle.js && cd -"
   },
   "author": "Joe Fraley",
   "license": "ISC"
