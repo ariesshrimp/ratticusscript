@@ -26,6 +26,8 @@ export const FullPost = ({ post }) => {
     </header>
     <p className={ CSS.lead }>{ meta.description }</p>
     <article dangerouslySetInnerHTML={ createMarkup(previewText) }></article>
+
+    <p>Cross posted on Medium at <a href="https://medium.com/@joefraley">https://medium.com/@joefraley</a></p>
     <BlogTags tags={ meta.tags } />
   </div>
 }

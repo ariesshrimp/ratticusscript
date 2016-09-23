@@ -23,6 +23,8 @@ export const BlogPost = props => {
 
     {/* Actual blog content */}
     <div dangerouslySetInnerHTML={ createMarkup(post.content) }></div>
+
+    <p>Cross posted on Medium at <a href="https://medium.com/@joefraley">https://medium.com/@joefraley</a></p>
     <BlogTags tags={ meta.tags } />
   </article>
 }
