@@ -142,6 +142,6 @@ export const AboutPage = props => {
       <li>If you've never met rats, you should. They are the model of innocence in this world.</li>
     </ul>
 
-    <p>You can also check out <a href="/reading">my reading journal here on this site</a>. I've written about <a href="/posts/">the general architecture for this website here</a>.</p>
+    <p>You can also check out <a href="/reading">my reading journal here on this site</a>. I've written about <a href="/posts/2016-09-23">the general architecture for this website here</a>.</p>
   </section>
 }
