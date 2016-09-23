@@ -1,5 +1,5 @@
 .footer {
-  font-size: 0.8em;
+  font-size: 0.3em;
 
   a {
     color: #333;
@@ -14,17 +14,14 @@
   }
 
   @media screen and (min-width: 45em) {
-    font-size: 106.25%;
     margin: 1% 10%;
   }
 
   @media screen and (min-width: 60em) {
-    font-size: 106.25%;
     margin: 1% 12.5%;
   }
 
   @media screen and (min-width: 75em) {
-    font-size: 112.5%;
     margin: 1% 15%;
   }
 }

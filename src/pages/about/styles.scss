@@ -14,10 +14,6 @@ h2 {
   margin: 1%;
 
   @media screen and (min-width: 30em) {
-    width: 31%;
-  }
-
-  @media screen and (min-width: 45em) {
     width: 23%;
   }
 
@@ -32,4 +28,13 @@ h2 {
   flex-flow: wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+.list {
+  list-style: initial;
+  margin-left: 0.4em;
+}
+
+.nestedList {
+  margin-left: 1.2em;
 }

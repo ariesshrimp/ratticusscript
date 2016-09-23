@@ -6,3 +6,67 @@
 .list > li {
   list-style: none;
 }
+
+.title {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.author {
+}
+
+.book {
+  margin-bottom: 1.5em;
+}
+
+hr {
+  background: rgba(0,0,0,0.2);
+  height: 1px;
+  width: 20%;
+}
+
+details {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+
+  summary {
+    margin-bottom: 0.5em;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.year {
+  color: #665;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: normal;
+
+}
+
+.jumpNav {
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    margin-right: 1em;
+  }
+}
+
+.jumpButton {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  transition: opacity 1s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

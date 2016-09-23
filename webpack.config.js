@@ -14,6 +14,7 @@ const paths = [
 
 
 module.exports = {
+  devtool: 'inline-source-map',
   entry: {
     main: './src/index.js'
   },
@@ -28,9 +29,9 @@ module.exports = {
       { test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.json$/, loader: 'json' },
       { test: /\.md$/, loaders: ['html', 'highlight', 'markdown', 'front-matter?onlyBody'] },
-      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[emoji:5]!sass') },
+      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[local]::[path]!sass!') },
       { test: /\.(woff|otf|png)$/, loader: 'url' },
-      { test: /\.(jpg|JPG)$/, loader: 'file' }
+      { test: /\.jpg$/, loader: 'file' }
     ]
   },
   plugins: [
