@@ -12,12 +12,12 @@ import { Head } from './components/head/index.js'
 import CSS from './styles/base.scss'
 
 export default props => {
-
   // Check whether this is a blog post so that we can load specific stylesheets.
-  const needsHighlight = props.locals.path.includes('posts') || props.locals.path.includes('posts')
+  const needsHighlight = props.locals.path.includes('posts') || props.locals.path.includes('home')
+  const needsIndieAuth = props.locals.path === '/'
 
   return <html lang="en">
-    <Head needsHighlight={ needsHighlight }/>
+    <Head needsHighlight={ needsHighlight } needsIndieAuth={ needsIndieAuth }/>
     <body>
         <main id="content" dangerouslySetInnerHTML={ props.reactApp } ></main>
     </body>

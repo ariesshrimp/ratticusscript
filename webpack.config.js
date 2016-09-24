@@ -24,6 +24,7 @@ module.exports = {
     libraryTarget: 'umd',
     publicPath: '/'
   },
+  target: 'node',
   module: {
     loaders: [
       { test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/ },

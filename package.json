@@ -29,14 +29,17 @@
     "json-loader": "^0.5.4",
     "markdown-loader": "^0.1.7",
     "moment": "^2.14.1",
+    "node-fetch": "^1.6.1",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.9.3",
-    "nodemon": "^1.10.2",
     "path-browserify": "0.0.0",
     "raw-loader": "^0.5.1",
+    "react-async-render": "0.0.2",
+    "react-mixin": "^3.0.5",
     "sass-loader": "^4.0.2",
     "static-site-generator-webpack-plugin": "^3.0.0",
     "style-loader": "^0.13.1",
+    "sync-request": "^3.0.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.1"
@@ -47,7 +50,8 @@
     "dev": "babel-node node_modules/.bin/webpack-dev-server",
     "deploy": "firebase deploy",
     "resume": "cp ./src/pages/resume/resume.pdf ./public",
-    "medium": "cd utilities/medium && node ../../node_modules/.bin/babel-node ../../node_modules/.bin/webpack --config ./webpack.config.js && node ./bundle.js && rm bundle.js && cd -"
+    "medium": "cd utilities/medium && node ../../node_modules/.bin/babel-node ../../node_modules/.bin/webpack --config ./webpack.config.js && node ./bundle.js && rm bundle.js && cd -",
+    "webmentions": "cd utilities/webmentions && node ../../node_modules/.bin/babel-node ../../node_modules/.bin/webpack --config ./webpack.config.js && node ./bundle.js && rm bundle.js && cd -"
   },
   "author": "Joe Fraley",
   "license": "ISC"

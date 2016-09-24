@@ -5,8 +5,6 @@ import { createMarkup } from '../../utilities.js'
 import CSS from './styles.scss'
 
 const ratPictures = require.context('./assets', true, /rat/)
-const johnMayerCovers = require.context('./assets', true, /john-mayer/)
-const comicCovers = require.context('./assets', true, /comics/)
 
 export const Thumbnail = props => {
   const { link, source } = props

@@ -21,6 +21,5 @@ export default (locals, callback) => {
     ))
 
   const HTML = ReactServer.renderToStaticMarkup(<Template reactApp={ reactApp } locals={ locals }/>)
-
   callback(null, `<!DOCTYPE html>${ HTML }`)
 }
