@@ -21,7 +21,7 @@ export const FullPost = ({ post }) => {
   const previewText = post.content
   return <div>
     <header className={ CSS.articleHead }>
-      <h2><LinkToPost post={ post }/></h2>
+      <h2 className={ CSS.bigTitle }><LinkToPost post={ post }/></h2>
       <h3 className={ CSS.date }>{ date }</h3>
     </header>
     <p className={ CSS.lead }>{ meta.description }</p>

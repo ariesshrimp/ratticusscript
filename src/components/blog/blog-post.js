@@ -35,13 +35,18 @@ export const WebMention = props => {
 }
 
 export const ListOfMentions = props => {
-  return <ul className={ CSS.mentions }>
-    { getWebMention(props.postName)
-        .map((mention, index) => {
+  const mentions = getWebMention(props.postName)
+  if (mentions.length) {
+    return <ul className={ CSS.mentions }>
+      <h2>Mentions on the Web:</h2>
+      {mentions.map((mention, index) => {
           return <WebMention mention={ mention } key={ index }/>
-        })
-    }
-  </ul>
+      })}
+    </ul>
+  }
+  else {
+    return null
+  }
 }
 
 export const BlogPost = props => {
@@ -52,7 +57,7 @@ export const BlogPost = props => {
   return <article className="h-entry">
     {/* Blog metadata */}
     <div className={ CSS.articleHead }>
-      <a className="u-url" href={`https://ratticusscript.firebaseapp.com/posts/${props.params.id}`} style={{display: 'none'}}></a>
+      <a className="u-url" href={`https://ratticusscript.firebaseapp.com/posts/${ props.params.id }`} style={{display: 'none'}}></a>
       <a rel="author" className="p-author h-card" href="https://ratticusscript.firebaseapp.com/" style={{display:'none'}}>{ meta.author }</a>
       <h1 className="p-name">{ meta.title }</h1>
       <h3 className={ CSS.date }>
@@ -65,7 +70,6 @@ export const BlogPost = props => {
 
     <p>Cross posted on Medium at <a href="https://medium.com/@joefraley">https://medium.com/@joefraley</a></p>
     <BlogTags tags={ meta.tags } />
-    <h2>Mentions on the Web</h2>
     <ListOfMentions postName={ props.params.id }/>
   </article>
 }

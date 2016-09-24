@@ -28,6 +28,5 @@ export const Book = ({props}) => {
         <p dangerouslySetInnerHTML={ createMarkup(props.review || '') }></p>
       </details>
     }
-    <hr />
   </div>
 }

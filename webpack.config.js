@@ -30,7 +30,7 @@ module.exports = {
       { test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.json$/, loader: 'json' },
       { test: /\.md$/, loaders: ['html', 'highlight', 'markdown', 'front-matter?onlyBody'] },
-      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[local]::[path]!sass!') },
+      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?sourceMap&modules&importLoaders=1&localIdentName=[local]::[path]!sass?sourceMap') },
       { test: /\.(woff|otf|png)$/, loader: 'url' },
       { test: /\.jpg$/, loader: 'file' }
     ]

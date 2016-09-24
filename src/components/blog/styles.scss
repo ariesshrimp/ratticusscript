@@ -5,6 +5,10 @@
 .articleHead {
   text-align: center;
   margin-bottom: 2em;
+
+  .bigTitle {
+    margin-bottom: 0.5em;
+  }
 }
 
 .previewHead {
@@ -69,6 +73,10 @@
 
 .mentions {
   word-wrap: break-word;
+
+  h2 {
+    margin-bottom: 0.5em;
+  }
 }
 
 .mention {

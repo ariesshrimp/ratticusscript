@@ -12,7 +12,7 @@ export const Thumbnail = props => {
 }
 
 export const AboutPage = props => {
-  return <section className="about">
+  return <section className={ CSS.about }>
     <h1 className={ CSS.header }>About Me</h1>
     <p>I studied analytic philosophy at the University of Colorado, Boulder, and also at Western Washington University. I see everything through a Socratic lens, and it makes me lame at parties. Please reach out to chat about anything you like - I'm always excited to meet new people. Otherwise I wouldn't have a personal website 😘</p>
 
