@@ -49,3 +49,28 @@
   background: rgba(0,0,0,0.05);
   border-radius: 1%;
 }
+
+.authorImage {
+  border-radius: 100%;
+  max-width: 20%;
+}
+
+.authorName {
+  font-weight: bold;
+}
+
+.commentAuthor {
+  display: flex;
+  flex-flow: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.mentions {
+  word-wrap: break-word;
+}
+
+.mention {
+  padding-bottom: 2em;
+}
