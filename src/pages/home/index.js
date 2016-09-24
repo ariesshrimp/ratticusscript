@@ -10,10 +10,10 @@ import CSS from './styles.scss'
 export const HomePage = props => {
   const posts = getPosts()
   return <section className="home">
-    <header className={ CSS.header }>
+    <header className={ `${ CSS.header } h-card` }>
       <ProfilePhoto />
       <div role="introduction" className={ CSS.intro }>
-        <h1>Joe Fraley</h1>
+        <h1 className="p-name">Joe Fraley</h1>
         <p>Just hoping to leave the world a little better than I found it.</p>
       </div>
     </header>

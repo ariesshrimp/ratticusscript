@@ -29,7 +29,7 @@ export const WebMention = props => {
     <p>{ content }</p>
     <a href={ url }>Original post here</a>
     <h3 className={ CSS.date }>
-      <time className="dt-published" dateTime={ published }>{ Moment(published).calendar() }</time>
+      <time dateTime={ published }>{ Moment(published).calendar() }</time>
     </h3>
   </div>
 }

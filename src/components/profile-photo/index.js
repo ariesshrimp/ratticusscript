@@ -3,5 +3,5 @@ import PICTURE from './close-up.png'
 import CSS from './styles.scss'
 
 export const ProfilePhoto = props => {
-  return <img className={ CSS.picture } src={ PICTURE } />
+  return <img className={ `${ CSS.picture } u-photo` } src={ PICTURE } />
 }
