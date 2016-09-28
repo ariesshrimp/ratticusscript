@@ -22,6 +22,9 @@ export const getPosts = () => {
   // Get the raw contents of the markdown file in a format that html-loader can handle
   const requirePost = require.context('./posts', true, /.*/)
 
+  // Get notes
+  const requireNote = require.context('./notes', true, /.*/)
+
   const paths = requirePost.keys()
   const posts = paths.map((file, index) => {
     const meta = requireMeta(file)
@@ -35,7 +38,26 @@ export const getPosts = () => {
     }
   })
 
-  return sortPosts(posts)
+  const notePaths = requireNote.keys().filter(path => path.includes('.json'))
+  const notes = notePaths.map((file, index) => {
+    const note = requireNote(file)
+
+    const noteData = {
+      name: Path.basename(file).split('.')[0],  // Get the filename and take off the file extension
+      id: posts.length + index,
+      content: note.text,
+      meta: {
+        type: 'note',
+        attributes: {
+          link: note.link,
+          date: note.date
+        }
+      }
+    }
+    return noteData
+  })
+
+  return sortPosts(posts.concat(notes))
 }
 
 export const getPost = name => {

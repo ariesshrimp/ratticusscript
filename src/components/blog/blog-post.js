@@ -1,6 +1,7 @@
 import React from 'react'
 import Moment from 'moment'
 import { createMarkup, getPost } from '../../utilities.js'
+import Helmet from 'react-helmet'
 
 import CSS from './styles.scss'
 
@@ -28,9 +29,9 @@ export const WebMention = props => {
     </div>
     <p>{ content }</p>
     <a href={ url }>Original post here</a>
-    <h3 className={ CSS.date }>
+    <h4 className={ CSS.date }>
       <time dateTime={ published }>{ Moment(published).calendar() }</time>
-    </h3>
+    </h4>
   </div>
 }
 
@@ -53,8 +54,20 @@ export const BlogPost = props => {
   const post = getPost(props.params.id)
   const { attributes: meta } = post.meta
   const date = Moment(meta.date).calendar()
+  const description = meta.description
 
   return <article className="h-entry">
+    {/* Update the document head to reflect this page title and description */}
+    <Helmet
+      title={ `${ meta.title } | RatticusScript` }
+      meta={[
+        { name: 'description', content: description }
+      ]}
+      link={[
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-light.min.css' }
+      ]}
+    />
+
     {/* Blog metadata */}
     <div className={ CSS.articleHead }>
       <a className="u-url" href={`https://ratticusscript.firebaseapp.com/posts/${ props.params.id }`} style={{display: 'none'}}></a>
@@ -68,8 +81,18 @@ export const BlogPost = props => {
     {/* Actual blog content */}
     <div className="e-content" dangerouslySetInnerHTML={ createMarkup(post.content) }></div>
 
-    <p>Cross posted on Medium at <a href="https://medium.com/@joefraley">https://medium.com/@joefraley</a></p>
+    {
+      meta.externalLink
+      ? <p><a href={ meta.externalLink }>Cross posted on Medium</a></p>
+      : null
+    }
+
     <BlogTags tags={ meta.tags } />
-    <ListOfMentions postName={ props.params.id }/>
+
+    {/* XXX: commented out for now because
+      it's really hard to post webmentions,
+      and I have to learn about XSS attacks
+      Webmentions */}
+    {/* <ListOfMentions postName={ props.params.id }/> */}
   </article>
 }

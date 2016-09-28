@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Helmet from 'react-helmet'
 import { createMarkup } from '../../utilities.js'
 
 import CSS from './styles.scss'
@@ -13,6 +13,12 @@ export const Thumbnail = props => {
 
 export const AboutPage = props => {
   return <section className={ CSS.about }>
+    <Helmet
+      title="About | RatticusScript"
+      meta={[
+        { name: 'description', content: 'Some stuff you can pretend to like if you need to make conversation with me.' }
+      ]}
+    />
     <h1 className={ CSS.header }>About Me</h1>
     <p>I studied analytic philosophy at the University of Colorado, Boulder, and also at Western Washington University. I see everything through a Socratic lens, and it makes me lame at parties. Please reach out to chat about anything you like - I'm always excited to meet new people. Otherwise I wouldn't have a personal website 😘</p>
 

@@ -5,19 +5,40 @@
 */
 
 import React from 'react'
-
+import Helmet from 'react-helmet'
 import { createMarkup } from './utilities.js'
-import { Head } from './components/head/index.js'
 
 import CSS from './styles/base.scss'
 
 export default props => {
+  // console.log(props.title)
   // Check whether this is a blog post so that we can load specific stylesheets.
   const needsHighlight = props.locals.path.includes('posts') || props.locals.path.includes('home')
   const needsIndieAuth = props.locals.path === '/'
-
   return <html lang="en">
-    <Head needsHighlight={ needsHighlight } needsIndieAuth={ needsIndieAuth }/>
+    {/* <Head needsHighlight={ needsHighlight } needsIndieAuth={ needsIndieAuth }/> */}
+    <head>
+      {/* description, title, key words */}
+      { props.head.meta.toComponent() }
+      { props.head.title.toComponent() }
+      { props.head.link.toComponent() }
+
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width"/>
+
+      <meta name="publisher" content="Joseph Fraley" />
+      <meta name="creator" content="Joseph Fraley" />
+      <meta name="author" content="Joseph Fraley" />
+
+      {/* IndieAuth data */}
+      <link key="1" rel="me" href="https://www.twitter.com/joseph_fraley"/>
+      <link key="2" rel="me" href="https://www.github.com/joefraley" />
+      <link key="3" rel="me" href="sms:+15033671627" />
+      <link key="4" rel="me" href="mailto:jose.fraley@gmail.com" />
+      <link rel="webmention" href="https://webmention.io/ratticusscript.firebaseapp.com/webmention" />
+
+      <link href="/styles.css" rel="stylesheet"/>
+    </head>
     <body>
         <main id="content" dangerouslySetInnerHTML={ props.reactApp } ></main>
     </body>

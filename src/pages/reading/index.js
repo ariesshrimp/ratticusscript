@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import books from './books.json'
 import { Book } from './book.js'
@@ -17,6 +18,12 @@ export const FilteredCategory = (condition, set, ...props) => {
 
 export const ReadingPage = props => {
   return <section className="reading">
+    <Helmet
+      title="Reading | RatticusScript"
+      meta={[
+        { name: 'description', content: 'My canonical reading list.' }
+      ]}
+    />
     <h1 className={ CSS.header }>Reading List</h1>
     <nav className={ CSS.jumpNav } role="navigation">
       <a href="#2014">2014</a>

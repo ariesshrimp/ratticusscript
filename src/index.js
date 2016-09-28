@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactServer from 'react-dom/server'
 import { Router, createMemoryHistory } from 'react-router'
+import Helmet from 'react-helmet'
 
 import { createMarkup } from './utilities.js'
 import { App } from './components/app.js'
@@ -19,7 +20,9 @@ export default (locals, callback) => {
     ReactServer.renderToStaticMarkup(
       <Router history={ history }>{ Routes }</Router>
     ))
+  let head = Helmet.rewind()
 
-  const HTML = ReactServer.renderToStaticMarkup(<Template reactApp={ reactApp } locals={ locals }/>)
+  const HTML = ReactServer.renderToStaticMarkup(<Template head={ head } reactApp={ reactApp } locals={ locals }/>)
+
   callback(null, `<!DOCTYPE html>${ HTML }`)
 }
