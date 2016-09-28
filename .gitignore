@@ -3,3 +3,5 @@ node_modules/
 database.rules.json
 firebase.json
 .DS_Store
+public/
+config.json
