@@ -30,7 +30,7 @@ module.exports = {
   target: 'node',
   module: {
     loaders: [
-      { test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/ },
+      { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.json$/, loader: 'json' },
       { test: /\.md$/, loaders: ['html', 'highlight', 'markdown', 'front-matter?onlyBody'] },
       { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css-loader?minify&modules&importLoaders=1&localIdentName=[local]::[path]!sass?sourceMap') },

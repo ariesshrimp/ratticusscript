@@ -4,6 +4,7 @@ import Moment from 'moment'
 
 import { createMarkup, sortPosts } from '../../utilities.js'
 import { BlogTags } from './blog-post.js'
+import { Note } from '../note/index.js'
 
 import CSS from './styles.scss'
 
@@ -53,28 +54,9 @@ export const PostPreview = ({ post }) => {
   </div>
 }
 
-export const Note = ({ note }) => {
-  console.log(note.meta)
-  const date = Moment(note.meta.attributes.date).format('LLLL')
-
-  return <div className={ CSS.preview }>
-    <header className={ CSS.previewHead }>
-      <h4 className={ CSS.date }>{ date }</h4>
-      <p>{ note.content }</p>
-    </header>
-
-    {
-      note.meta.attributes.link
-      ? <p><a href={ note.meta.attributes.link }>Cross posted on Twitter</a></p>
-      : null
-    }
-  </div>
-}
-
 export const ListOfPosts = props => {
   const links = props.posts.map((post, index) => {
     if (post.meta.type && post.meta.type === 'note') {
-      console.log('type is a note: ', post)
       return <li key={ post.id }><Note note={ post }/></li>
     }
     else if (index === 0) {

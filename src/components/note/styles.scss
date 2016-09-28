@@ -1,0 +1,23 @@
+.noteImage {
+  max-width: 100%;
+}
+
+.previewHead {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+.preview {
+  * {
+    margin: 0.5em 0;
+  }
+
+  padding-top: 2em;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.date {
+  color: #665;
+  font-style: italic;
+  font-weight: normal;
+}
