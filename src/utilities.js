@@ -51,7 +51,7 @@ export const getPosts = () => {
         type: 'note',
         attributes: {
           link: note.externalURL,
-          date: note.date
+          date: Moment(note.created_at, `ddd MMM DD HH:mm:ss Z YYYY`)
         }
       }
     }

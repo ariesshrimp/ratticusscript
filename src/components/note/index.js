@@ -3,7 +3,6 @@ import Moment from 'moment'
 import CSS from './styles.scss'
 
 export const Note = ({ note }) => {
-  console.log(note.meta)
   const date = Moment(note.meta.attributes.date).format('LLLL')
 
   return <div className={ CSS.preview }>
@@ -18,7 +17,7 @@ export const Note = ({ note }) => {
 
     {
       note.meta.attributes.link
-      ? <p><a href={ note.meta.attributes.link }>Cross posted on Twitter</a></p>
+      ? <p><a href={ note.meta.attributes.link } target="_">Cross posted on Twitter</a></p>
       : null
     }
   </div>

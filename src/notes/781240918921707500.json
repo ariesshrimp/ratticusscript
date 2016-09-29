@@ -1,0 +1,42 @@
+{
+	"created_at": "Wed Sep 28 21:15:24 +0000 2016",
+	"entities": {
+		"hashtags": [
+			{
+				"indices": [
+					0,
+					4
+				],
+				"text": "DIY"
+			}
+		],
+		"urls": [
+			{
+				"display_url": "twitter.com/i/web/status/7…",
+				"expanded_url": "https://twitter.com/i/web/status/781240918921707520",
+				"indices": [
+					114,
+					137
+				],
+				"url": "https://t.co/VRW7us0Las"
+			}
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"id": 781240918921707500,
+	"id_str": "781240918921707520",
+	"is_quote_status": false,
+	"lang": "en",
+	"possibly_sensitive": false,
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"https://ratticusscript.firebaseapp.com/\" rel=\"nofollow\">RatticusScript-Blog</a>",
+	"text": "#DIY twitter desktop client for publishing to my homepage first, and syndicating to twitter second. NEAT! thanks… https://t.co/VRW7us0Las",
+	"truncated": true,
+	"user": {
+		"id": 2981248609,
+		"id_str": "2981248609"
+	},
+	"externalURL": "https://twitter.com/joseph_fraley/status/781240918921707520"
+}
