@@ -1,10 +1,7 @@
-import { parse, resolve } from 'path'
+const { parse, resolve } = require('path')
 
 module.exports = {
-  devtool: 'inline-source-map',
-  entry: {
-    main: resolve(__dirname, 'index.js')
-  },
+  entry: './index.js',
   output: {
     filename: 'bundle.js',
     path: __dirname,

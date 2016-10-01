@@ -1,10 +1,10 @@
 // https://medium.com/me/settings for more info on keys
-import fs from 'fs'
-import path from 'path'
-import Medium from 'medium-sdk'
-import Moment from 'moment'
+const fs = require('fs')
+const path = require('path')
+const Medium = require('medium-sdk')
+const Moment = require('moment')
 
-import CONFIG from '../config.json'
+const CONFIG = require('../config.json')
 
 // Get access to Medium account
 const client = new Medium.MediumClient({
