@@ -99,7 +99,7 @@ export const AboutPage = props => {
 
       <li>Many works of science-fiction have inspired me, especially time-travel stories generally. Reading The Dark Tower series fundamentally changed the way I think about stories and endings. Sandman, too.</li>
 
-      <li>Superhero mythology has profoundly influenced me. Superman, Batman, Judge Dredd, and Spider-Man especially resonate at my frequency - as well as many others. Brilliant people have said much in their voices. See especially:
+      <li>Superhero mythology has profoundly influenced me. Superman, Batman, Judge Dredd, and Hellboy especially resonate at my frequency - as well as many others. Brilliant people have said much in their voices. See especially:
         <ul className={ CSS.nestedList }>
           <li><a href="http://www.avclub.com/tv/batman-the-animated-series/"><em>Batman: the Animated Series</em></a></li>
           <li><a href="https://www.overdrive.com/media/2677748/all-star-superman">Grant Morrison's <em>All-Star Superman</em></a></li>
