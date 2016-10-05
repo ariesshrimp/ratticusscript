@@ -57,6 +57,7 @@
     "build": "npm run medium && npm run twitter && rm -rf public && babel-node node_modules/.bin/webpack",
     "dev": "babel-node node_modules/.bin/webpack-dev-server",
     "deploy": "firebase deploy",
+    "publish": "npm run build && npm run deploy",
     "medium": "cd utilities/medium && npm start && cd -",
     "webmentions": "cd utilities/webmentions && babel-node ../../node_modules/.bin/webpack --config ./webpack.config.js && node ./bundle.js && rm bundle.js && cd -",
     "twitter": "cd utilities/twitter && babel-node index.js && cd -"
