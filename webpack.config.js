@@ -44,7 +44,8 @@ module.exports = {
     new SiteMapPlugin('https://ratticusscript.firebaseapp.com/', paths, 'sitemap.xml'),
     new CopyPlugin([
       { from: 'src/robots.txt' },
-      { from: 'src/pages/resume/resume.pdf' }
+      { from: 'src/pages/resume/resume.pdf' },
+      { from: 'src/assets/favicons' }
     ])
   ]
 }

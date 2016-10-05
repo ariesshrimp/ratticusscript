@@ -1,0 +1,20 @@
+{
+	"name": "RatticusScript",
+	"short_name": "RatticusScript",
+	"lang": "en-US",
+	"start_url": "/",
+	"description": "The internet home base of Joe Fraley. That's me. You get what you pay for (you didn't pay anything...check yourself!)",
+	"icons": [
+		{
+			"src": "\/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image\/png"
+		},
+		{
+			"src": "\/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image\/png"
+		}
+	],
+	"theme_color": "#ffffff"
+}
