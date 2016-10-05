@@ -11,7 +11,7 @@ import Routes from './components/routes.js'
 if (typeof document !== 'undefined') {
   // Do fancy client-side javascript, like set up a service-worker for off-line caching
   if (typeof navigator !== 'undefined') {
-    require('offline-plugin/runtime').install()
+    navigator.serviceWorker.register('/sw.js')
   }
 }
 
