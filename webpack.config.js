@@ -2,6 +2,7 @@ import StaticSiteGeneratorPlugin from 'static-site-generator-webpack-plugin'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import SiteMapPlugin from 'sitemap-webpack-plugin'
 import CopyPlugin from 'copy-webpack-plugin'
+import OfflinePlugin from 'offline-plugin'
 
 import { readdirSync } from 'fs'
 import { parse } from 'path'
@@ -17,7 +18,6 @@ const paths = [
 
 
 module.exports = {
-  devtool: 'inline-source-map',
   entry: {
     main: './src/index.js'
   },
@@ -27,7 +27,6 @@ module.exports = {
     libraryTarget: 'umd',
     publicPath: '/'
   },
-  target: 'node',
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
@@ -46,6 +45,9 @@ module.exports = {
       { from: 'src/robots.txt' },
       { from: 'src/pages/resume/resume.pdf' },
       { from: 'src/assets/favicons' }
-    ])
+    ]),
+    new OfflinePlugin({
+      entry: '/sw.js'
+    })
   ]
 }

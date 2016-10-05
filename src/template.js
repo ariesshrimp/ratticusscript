@@ -11,7 +11,6 @@ import { createMarkup } from './utilities.js'
 import CSS from './styles/base.scss'
 
 export default props => {
-  // console.log(props.title)
   // Check whether this is a blog post so that we can load specific stylesheets.
   const needsHighlight = props.locals.path.includes('posts') || props.locals.path.includes('home')
   const needsIndieAuth = props.locals.path === '/'
@@ -49,6 +48,7 @@ export default props => {
     </head>
     <body>
         <main id="content" dangerouslySetInnerHTML={ props.reactApp } ></main>
+        <script src="/index.js"></script>
     </body>
   </html>
 }
