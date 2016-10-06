@@ -11,9 +11,14 @@ import runtime from 'serviceworker-webpack-plugin/lib/runtime'
 
 function setUpServiceWorker() {
   if (navigator && 'serviceWorker' in navigator) {
-    const registration = runtime.register()
-      .then(() => console.log('Registration complete'))
-      .catch(error => console.error(error))
+    // XXX: We only need a service worker to run on our index route, becuase it has access to the webpack assets tree
+    // Also, the service worker is always relative to the DIRECTORY of the current HTML file.
+    // http://stackoverflow.com/questions/30336685/404-error-when-trying-to-register-serviceworker
+    if (location.pathname === '/') {
+      runtime.register()
+        .then(() => console.log('Registration complete'))
+        .catch(error => console.error(error))
+    }
   }
   else {
     console.log('Service workers not supported. No offline-access possible.')
