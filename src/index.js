@@ -7,12 +7,22 @@ import Helmet from 'react-helmet'
 import { createMarkup } from './utilities.js'
 import { App } from './components/app.js'
 import Routes from './components/routes.js'
+import runtime from 'serviceworker-webpack-plugin/lib/runtime'
+
+function setUpServiceWorker() {
+  if (navigator && 'serviceWorker' in navigator) {
+    const registration = runtime.register()
+      .then(() => console.log('Registration complete'))
+      .catch(error => console.error(error))
+  }
+  else {
+    console.log('Service workers not supported. No offline-access possible.')
+  }
+}
 
 if (typeof document !== 'undefined') {
   // Do fancy client-side javascript, like set up a service-worker for off-line caching
-  if (typeof navigator !== 'undefined') {
-    navigator.serviceWorker.register('/sw.js')
-  }
+  setUpServiceWorker()
 }
 
 export default (locals, callback) => {
