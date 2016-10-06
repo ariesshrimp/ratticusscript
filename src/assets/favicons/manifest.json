@@ -2,7 +2,8 @@
 	"name": "RatticusScript",
 	"short_name": "Ratticus",
 	"lang": "en-US",
-	"start_url": "/",
+	"start_url": ".",
+	"display": "standalone",
 	"description": "The internet home base of Joe Fraley. That's me. You get what you pay for (you didn't pay anything...check yourself!)",
 	"icons": [
 		{
