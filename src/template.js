@@ -12,7 +12,7 @@ import CSS from './styles/base.scss'
 
 export default props => {
   // Check whether this is a blog post so that we can load specific stylesheets.
-  const needsHighlight = props.locals.path.includes('posts') || props.locals.path.includes('home')
+  const needsHighlight = props.locals.path.includes('posts') || props.locals.path === '/'
   const needsIndieAuth = props.locals.path === '/'
   return <html lang="en">
     {/* <Head needsHighlight={ needsHighlight } needsIndieAuth={ needsIndieAuth }/> */}
@@ -47,7 +47,7 @@ export default props => {
       <link href="/styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <main id="content" dangerouslySetInnerHTML={ props.reactApp } ></main>
+        <div id="content" dangerouslySetInnerHTML={ props.reactApp } ></div>
         <script src="/index.js"></script>
     </body>
   </html>

@@ -7,12 +7,27 @@ import Helmet from 'react-helmet'
 import { createMarkup } from './utilities.js'
 import { App } from './components/app.js'
 import Routes from './components/routes.js'
+import runtime from 'serviceworker-webpack-plugin/lib/runtime'
+
+function setUpServiceWorker() {
+  if (navigator && 'serviceWorker' in navigator) {
+    // XXX: We only need a service worker to run on our index route, becuase it has access to the webpack assets tree
+    // Also, the service worker is always relative to the DIRECTORY of the current HTML file.
+    // http://stackoverflow.com/questions/30336685/404-error-when-trying-to-register-serviceworker
+    if (location.pathname === '/') {
+      runtime.register()
+        .then(() => console.log('Registration complete'))
+        .catch(error => console.error(error))
+    }
+  }
+  else {
+    console.log('Service workers not supported. No offline-access possible.')
+  }
+}
 
 if (typeof document !== 'undefined') {
   // Do fancy client-side javascript, like set up a service-worker for off-line caching
-  if (typeof navigator !== 'undefined') {
-    navigator.serviceWorker.register('/sw.js')
-  }
+  setUpServiceWorker()
 }
 
 export default (locals, callback) => {

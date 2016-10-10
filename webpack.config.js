@@ -2,10 +2,10 @@ import StaticSiteGeneratorPlugin from 'static-site-generator-webpack-plugin'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import SiteMapPlugin from 'sitemap-webpack-plugin'
 import CopyPlugin from 'copy-webpack-plugin'
-import OfflinePlugin from 'offline-plugin'
+import ServiceWorkerPlugin from 'serviceworker-webpack-plugin'
 
 import { readdirSync } from 'fs'
-import { parse } from 'path'
+import { join, parse } from 'path'
 
 const blogPosts = readdirSync('./src/posts')
 const paths = [
@@ -46,8 +46,8 @@ module.exports = {
       { from: 'src/pages/resume/resume.pdf' },
       { from: 'src/assets/favicons' }
     ]),
-    new OfflinePlugin({
-      entry: '/sw.js'
+    new ServiceWorkerPlugin({
+      entry: join(__dirname, 'src/ServiceWorker.js')
     })
   ]
 }
