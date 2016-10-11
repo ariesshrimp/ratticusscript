@@ -1,8 +1,8 @@
 {
-  "name": "StaticSiteGeneratorExample",
+  "name": "RatticusScript",
   "version": "1.0.0",
   "description": "A working, up-to-date example of how to use static-site-generator-webpack-plugin with react-router.",
-  "main": "webpack.config.js",
+  "main": "src/index.js",
   "dependencies": {
     "firebase": "^3.4.0",
     "medium-sdk": "0.0.3",
@@ -65,5 +65,9 @@
     "twitter": "cd utilities/twitter && babel-node index.js && cd -"
   },
   "author": "Joe Fraley",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/joefraley/ratticusscript.git",
+    "type": "git"
+  }
 }
