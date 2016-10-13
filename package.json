@@ -4,6 +4,7 @@
   "description": "A working, up-to-date example of how to use static-site-generator-webpack-plugin with react-router.",
   "main": "src/index.js",
   "dependencies": {
+    "chokidar": "^1.6.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-helmet": "^3.1.0",
