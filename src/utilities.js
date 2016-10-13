@@ -46,7 +46,7 @@ export const getPosts = () => {
       name: Path.basename(file).split('.')[0],  // Get the filename and take off the file extension
       id: posts.length + index,
       content: note.text,
-      media: note.entities.media ? note.entities.media : undefined,
+      media: (note.entities && note.entities.media) ? note.entities.media : undefined,
       meta: {
         type: 'note',
         attributes: {
