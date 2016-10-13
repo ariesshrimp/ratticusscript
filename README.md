@@ -28,7 +28,13 @@ In the end, the site we build might have a broad spectrum of user experiences, s
 For most websites, that range of contexts is concievably huge, and the opportunity cost is proportionately huge. Serving doubly-static HTML, _progressively enhanced_ by convenient features, should be a no-brainer.
 
 ## Generative Logic
-Ok, so how are we supposed to write this thing? Do I just have to edit HTML files and `src` attributes every time I change copy, or adjust image quality, or make any other change to the site? There are two problems with that suggestion.
-1. It's super tedious and error prone, and nobody wants to.
-2. It makes certain design patterns prohibitively difficult.
+Ok, so how are we supposed to write this thing? Do I just have to edit HTML files and `src` attributes every time I change copy, or adjust image quality, or make any other change to the site? There are two problems with that suggestion.  
+1. It's super tedious and error prone, and nobody wants to.  
+2. It makes certain design patterns prohibitively difficult.  
+
+The solution proposed here for both is a static-site generation process. Using build tools like Webpack, you can play out your application logic in a build-time environment. Run some command and "play" your app. Then dump the output into a directory structure.
+
+This customizable build process lets you write whatever you want, as long as everything is ultimately funneled through a single entry-point: a function that returns an HTML string.
+
+A single function can be run with a convenient npm script, or incorporated into a more complex series of scripts, so that the entire site can be generated with a single command like `npm start`, or `npm run publish`.
 
