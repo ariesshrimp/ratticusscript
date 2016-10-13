@@ -18,7 +18,7 @@ const Routes = <Route path="/" component={ App }>
   <Route path="reading" component={ ReadingPage } />
 
   <Route path="posts" component={ ListOfPosts }/>
-  <Route path="posts/:id" component={ BlogPost }/>
+  <Route path="posts/:date" component={ BlogPost }/>
 </Route>
 
 module.exports = Routes

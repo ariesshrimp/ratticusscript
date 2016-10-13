@@ -72,6 +72,40 @@ export const getPost = name => {
   }
 }
 
+export const lastPost = post => {
+  const requireMeta = require.context('!!json!front-matter!./posts', true, /.*/)
+  const requirePost = require.context('./posts', true, /.*/)
+
+  const { meta, content, name } = post
+  const { id } = meta.attributes
+
+
+  const posts = requirePost.keys()
+  const lastPost = posts.find(_post => {
+    const thisMeta = requireMeta(_post)
+    return thisMeta.attributes.id === id - 1
+  })
+
+  return lastPost ? lastPost.substring(2, lastPost.length - 3) : null
+}
+
+export const nextPost = post => {
+  const requireMeta = require.context('!!json!front-matter!./posts', true, /.*/)
+  const requirePost = require.context('./posts', true, /.*/)
+
+  const { meta, content, name } = post
+  const { id } = meta.attributes
+
+
+  const posts = requirePost.keys()
+  const nextPost = posts.find(_post => {
+    const thisMeta = requireMeta(_post)
+    return thisMeta.attributes.id === id + 1
+  })
+
+  return nextPost ? nextPost.substring(2, nextPost.length - 3) : null
+}
+
 // XXX:jmf This is a shorthand for that dumb dangerouslySetInnerHtml trap React uses for "security"
 export const createMarkup = HTML => {
   return {__html: HTML}
