@@ -1,7 +1,8 @@
 import React from 'react'
 import Moment from 'moment'
-import { createMarkup, getPost } from '../../utilities.js'
+import { createMarkup, getPost, lastPost, nextPost } from '../../utilities.js'
 import Helmet from 'react-helmet'
+import { MoreButton } from './more-button.js'
 
 import CSS from './styles.scss'
 
@@ -51,7 +52,7 @@ export const ListOfMentions = props => {
 }
 
 export const BlogPost = props => {
-  const post = getPost(props.params.id)
+  const post = getPost(props.params.date)
   const { attributes: meta } = post.meta
   const date = Moment(meta.date).calendar()
   const description = meta.description
@@ -94,5 +95,6 @@ export const BlogPost = props => {
       and I have to learn about XSS attacks
       Webmentions */}
     {/* <ListOfMentions postName={ props.params.id }/> */}
+    <MoreButton post={ nextPost(post) } type="next"/>
   </article>
 }

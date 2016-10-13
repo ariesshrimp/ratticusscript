@@ -27,13 +27,12 @@
     font-weight: normal;
     border-width: 2px 0;
     border-style: solid;
+    display: block;
+    text-align: center;
 
     @media screen and (max-width: 540px) {
       border: none;
       text-decoration: underline;
       margin: 0;
     }
-}
-
-.active {
 }

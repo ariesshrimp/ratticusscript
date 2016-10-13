@@ -16,6 +16,13 @@ export const FilteredCategory = (condition, set, ...props) => {
   }
 }
 
+export const filterByYear = (list, year) => list.filter(book => book.finished.split('/')[0] === year)
+const sortedBooks = [
+  {year: 2016, list: filterByYear(books, '2016')},
+  {year: 2015, list: filterByYear(books, '2015')},
+  {year: 2014, list: filterByYear(books, '2014')}
+]
+
 export const ReadingPage = props => {
   return <section className="reading">
     <Helmet
@@ -32,30 +39,19 @@ export const ReadingPage = props => {
     </nav>
 
     <ul className={ CSS.list }>
-      <li>
-        <time className={ CSS.year } id="2016">2016</time>
-        {
-          books.filter(book => book.finished.split('/')[0] === '2016').map((book, index) => {
-            return <div className={ CSS.book } key={ index }> <Book props={ book } /></div>
-          })
-        }
-      </li>
-      <li>
-        <time className={ CSS.year } id="2015">2015</time>
-        {
-          books.filter(book => book.finished.split('/')[0] === '2015').map((book, index) => {
-            return <div className={ CSS.book } key={ index }> <Book props={ book } /></div>
-          })
-        }
-      </li>
-      <li>
-        <time className={ CSS.year } id="2014">2014</time>
-        {
-          books.filter(book => book.finished.split('/')[0] === '2014').map((book, index) => {
-            return <div className={ CSS.book } key={ index }> <Book props={ book } /></div>
-          })
-        }
-      </li>
+      {
+        sortedBooks.map((group, index) => {
+          const { year, list } = group
+          return <li key={ index }>
+            <time className={ CSS.year } id={ year }>{ year } ({ list.length })</time>
+            {
+              list.map((book, index) => {
+                return <div className={ CSS.book } key={ index }> <Book props={ book } /></div>
+              })
+            }
+          </li>
+        })
+      }
     </ul>
     <a className={ CSS.jumpButton } href="#">(Jump to top)</a>
   </section>

@@ -46,7 +46,7 @@ export const getPosts = () => {
       name: Path.basename(file).split('.')[0],  // Get the filename and take off the file extension
       id: posts.length + index,
       content: note.text,
-      media: note.entities.media ? note.entities.media : undefined,
+      media: (note.entities && note.entities.media) ? note.entities.media : undefined,
       meta: {
         type: 'note',
         attributes: {
@@ -70,6 +70,40 @@ export const getPost = name => {
     content,
     meta
   }
+}
+
+export const lastPost = post => {
+  const requireMeta = require.context('!!json!front-matter!./posts', true, /.*/)
+  const requirePost = require.context('./posts', true, /.*/)
+
+  const { meta, content, name } = post
+  const { id } = meta.attributes
+
+
+  const posts = requirePost.keys()
+  const lastPost = posts.find(_post => {
+    const thisMeta = requireMeta(_post)
+    return thisMeta.attributes.id === id - 1
+  })
+
+  return lastPost ? lastPost.substring(2, lastPost.length - 3) : null
+}
+
+export const nextPost = post => {
+  const requireMeta = require.context('!!json!front-matter!./posts', true, /.*/)
+  const requirePost = require.context('./posts', true, /.*/)
+
+  const { meta, content, name } = post
+  const { id } = meta.attributes
+
+
+  const posts = requirePost.keys()
+  const nextPost = posts.find(_post => {
+    const thisMeta = requireMeta(_post)
+    return thisMeta.attributes.id === id + 1
+  })
+
+  return nextPost ? nextPost.substring(2, nextPost.length - 3) : null
 }
 
 // XXX:jmf This is a shorthand for that dumb dangerouslySetInnerHtml trap React uses for "security"

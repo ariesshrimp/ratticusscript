@@ -1,0 +1,19 @@
+{
+	"created_at": "Tue Oct 11 00:00:58 +0000 2016",
+	"favorite_count": 0,
+	"favorited": false,
+	"id": 785631241638965200,
+	"id_str": "785631241638965248",
+	"is_quote_status": false,
+	"lang": "en",
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"https://ratticusscript.firebaseapp.com/\" rel=\"nofollow\">RatticusScript-Blog</a>",
+	"text": "Who makes the best matcha late in Portland?",
+	"truncated": false,
+	"user": {
+		"id": 2981248609,
+		"id_str": "2981248609"
+	},
+	"externalURL": "https://twitter.com/joseph_fraley/status/785631241638965248"
+}

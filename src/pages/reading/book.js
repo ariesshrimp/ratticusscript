@@ -2,6 +2,9 @@ import React from 'react'
 import { createMarkup } from '../../utilities.js'
 import CSS from './styles.scss'
 
+// Get a string of x many stars.
+export const numberToStars = number => Array.from('🌟'.repeat(number)).join('')
+
 /**
  * For more on the <details> and <summary> elements,
  * see: http://www.w3schools.com/tags/tag_summary.asp
@@ -24,7 +27,7 @@ export const Book = ({props}) => {
           <span>Started: <time>{ props.started || '--' }</time></span>
           <span> | Finished: <time>{ props.finished || '--' }</time></span>
         </p>
-        <p className="rating">Rating: { props.rating || '--' }</p>
+        <p className="rating">Rating: { numberToStars(parseInt(props.rating)) || '--' }</p>
         <p dangerouslySetInnerHTML={ createMarkup(props.review || '') }></p>
       </details>
     }
