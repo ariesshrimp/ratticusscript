@@ -2,7 +2,7 @@
 	{
 		"title": "Responsible Responsive Design",
 		"author": "Scott Jehl",
-		"rating": "4.12",
+		"rating": "3",
 		"started": "2016/06/26",
 		"finished": "2016/06/28",
 		"genre": "",
@@ -12,7 +12,7 @@
 	{
 		"title": "Foundation (Foundation, #1)",
 		"author": "Isaac Asimov",
-		"rating": "4.10",
+		"rating": "3",
 		"started": "2016/07/17",
 		"finished": "2016/06/28",
 		"genre": "",
@@ -22,7 +22,7 @@
 	{
 		"title": "Git for Humans (A Book Apart #17)",
 		"author": "David Demaree",
-		"rating": "3.94",
+		"rating": "0",
 		"started": "2016/06/01",
 		"finished": "2016/06/03",
 		"genre": "computers",
@@ -32,7 +32,7 @@
 	{
 		"title": "The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness",
 		"author": "Sy Montgomery",
-		"rating": "3.82",
+		"rating": "2",
 		"started": "",
 		"finished": "2016/05/15",
 		"genre": "",
@@ -42,7 +42,7 @@
 	{
 		"title": "Doing Good Better: How Effective Altruism Can Help You Make a Difference",
 		"author": "William MacAskill",
-		"rating": "4.22",
+		"rating": "5",
 		"started": "2016/04/27",
 		"finished": "2016/04/26",
 		"genre": "",
@@ -52,7 +52,7 @@
 	{
 		"title": "The Peripheral",
 		"author": "William Gibson",
-		"rating": "3.94",
+		"rating": "3",
 		"started": "2016/01/01",
 		"finished": "2016/04/15",
 		"genre": "",
@@ -62,7 +62,7 @@
 	{
 		"title": "HTML5 Foundations",
 		"author": "Matt   West",
-		"rating": "4.33",
+		"rating": "5",
 		"started": "2016/04/10",
 		"finished": "2016/04/10",
 		"genre": "computers, non-fiction",
@@ -72,7 +72,7 @@
 	{
 		"title": "If Hemingway Wrote JavaScript",
 		"author": "Angus Croll",
-		"rating": "4.31",
+		"rating": "5",
 		"started": "2016/03/17",
 		"finished": "2016/03/22",
 		"genre": "computers",
@@ -82,7 +82,7 @@
 	{
 		"title": "SurviveJS - Webpack and React",
 		"author": "Juho Vepsäläinen",
-		"rating": "3.60",
+		"rating": "4",
 		"started": "2016/03/22",
 		"finished": "2016/03/22",
 		"genre": "computers",
@@ -92,7 +92,7 @@
 	{
 		"title": "The Clean Coder: A Code of Conduct for Professional Programmers",
 		"author": "Robert C. Martin",
-		"rating": "4.27",
+		"rating": "5",
 		"started": "2016/03/04",
 		"finished": "2016/03/04",
 		"genre": "",
@@ -102,7 +102,7 @@
 	{
 		"title": "Auschwitz on the Yellow Sea",
 		"author": "Thomas Middlehurst",
-		"rating": "0.0",
+		"rating": "0",
 		"started": "2016/01/31",
 		"finished": "2016/01/31",
 		"genre": "",
@@ -112,7 +112,7 @@
 	{
 		"title": "JavaScript Enlightenment",
 		"author": "Cody Lindley",
-		"rating": "3.54",
+		"rating": "3",
 		"started": "2016/02/05",
 		"finished": "2016/01/31",
 		"genre": "",
@@ -122,7 +122,7 @@
 	{
 		"title": "The Philosophical Programmer: Reflections on the Moth in the Machine",
 		"author": "Daniel Kohanski",
-		"rating": "3.43",
+		"rating": "3",
 		"started": "2016/01/25",
 		"finished": "2016/01/18",
 		"genre": "computers, non-fiction",
@@ -132,7 +132,7 @@
 	{
 		"title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
 		"author": "Marie Kondō",
-		"rating": "3.77",
+		"rating": "3",
 		"started": "2016/01/14",
 		"finished": "2016/01/11",
 		"genre": "non-fiction",
@@ -142,7 +142,7 @@
 	{
 		"title": "Functional JavaScript: Introducing Functional Programming with Underscore.js",
 		"author": "Michael Fogus",
-		"rating": "4.07",
+		"rating": "4",
 		"started": "2016/01/18",
 		"finished": "2016/01/11",
 		"genre": "computers, non-fiction",
@@ -152,7 +152,7 @@
 	{
 		"title": "Einstein: His Life and Universe",
 		"author": "Walter Isaacson",
-		"rating": "4.06",
+		"rating": "5",
 		"started": "2016/01/08",
 		"finished": "2016/01/08",
 		"genre": "",
@@ -162,7 +162,7 @@
 	{
 		"title": "Understanding ECMAScript 6",
 		"author": "Nicholas C. Zakas",
-		"rating": "3.58",
+		"rating": "0",
 		"started": "2016/05/18",
 		"finished": "2015/11/25",
 		"genre": "",
@@ -172,7 +172,7 @@
 	{
 		"title": "React.js Essentials",
 		"author": "Artemij Fedosejev",
-		"rating": "3.87",
+		"rating": "4",
 		"started": "2015/11/24",
 		"finished": "2015/11/20",
 		"genre": "",
@@ -182,7 +182,7 @@
 	{
 		"title": "Mastering Sublime Text",
 		"author": "Dan Peleg",
-		"rating": "2.80",
+		"rating": "3",
 		"started": "2015/11/18",
 		"finished": "2015/11/17",
 		"genre": "computers, non-fiction",
@@ -192,7 +192,7 @@
 	{
 		"title": "The New Hacker's Dictionary",
 		"author": "Eric S. Raymond",
-		"rating": "4.06",
+		"rating": "0",
 		"started": "",
 		"finished": "2015/11/10",
 		"genre": "",
@@ -202,7 +202,7 @@
 	{
 		"title": "Nausicaä of the Valley of the Wind: The Complete Series",
 		"author": "Hayao Miyazaki",
-		"rating": "4.75",
+		"rating": "5",
 		"started": "2015/08/06",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -212,7 +212,7 @@
 	{
 		"title": "CSS Mastery: Advanced Web Standards Solutions",
 		"author": "Andy Budd",
-		"rating": "4.12",
+		"rating": "4",
 		"started": "2015/07/19",
 		"finished": "2015/08/02",
 		"genre": "non-fiction",
@@ -222,7 +222,7 @@
 	{
 		"title": "The Design of Everyday Things, Revised and Expanded Edition",
 		"author": "Donald A. Norman",
-		"rating": "4.16",
+		"rating": "5",
 		"started": "2015/07/10",
 		"finished": "2015/08/02",
 		"genre": "non-fiction",
@@ -232,7 +232,7 @@
 	{
 		"title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
 		"author": "Kevin D. Mitnick",
-		"rating": "3.93",
+		"rating": "3",
 		"started": "2015/07/01",
 		"finished": "2015/08/02",
 		"genre": "non-fiction",
@@ -242,7 +242,7 @@
 	{
 		"title": "Influence: The Psychology of Persuasion",
 		"author": "Robert B. Cialdini",
-		"rating": "4.16",
+		"rating": "3",
 		"started": "2015/06/19",
 		"finished": "2015/08/02",
 		"genre": "non-fiction",
@@ -252,7 +252,7 @@
 	{
 		"title": "Living the Farm Sanctuary Life: How to Eat Healthier, Live Longer, and Feel Better Every Day by Bringing Home the Happiest Place on Earth",
 		"author": "Gene Baur",
-		"rating": "4.25",
+		"rating": "3",
 		"started": "2015/06/03",
 		"finished": "2015/08/02",
 		"genre": "activism, cooking, non-fiction",
@@ -262,7 +262,7 @@
 	{
 		"title": "Why Not Socialism?",
 		"author": "Gerald A. Cohen",
-		"rating": "3.51",
+		"rating": "5",
 		"started": "2015/03/30",
 		"finished": "2015/08/02",
 		"genre": "non-fiction",
@@ -272,7 +272,7 @@
 	{
 		"title": "Sweet Tooth, Vol. 6: Wild Game",
 		"author": "Jeff Lemire",
-		"rating": "4.31",
+		"rating": "5",
 		"started": "2015/05/31",
 		"finished": "2015/08/02",
 		"genre": "fiction, comics",
@@ -282,7 +282,7 @@
 	{
 		"title": "Sweet Tooth, Vol. 5: Unnatural Habitats",
 		"author": "Jeff Lemire",
-		"rating": "4.17",
+		"rating": "5",
 		"started": "2015/05/30",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -292,7 +292,7 @@
 	{
 		"title": "Sweet Tooth, Vol. 4: Endangered Species",
 		"author": "Jeff Lemire",
-		"rating": "4.16",
+		"rating": "3",
 		"started": "2015/05/26",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -302,7 +302,7 @@
 	{
 		"title": "Sweet Tooth, Vol. 3: Animal Armies",
 		"author": "Jeff Lemire",
-		"rating": "4.13",
+		"rating": "4",
 		"started": "2015/05/09",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -312,7 +312,7 @@
 	{
 		"title": "Sweet Tooth, Vol. 2: In Captivity",
 		"author": "Jeff Lemire",
-		"rating": "4.10",
+		"rating": "5",
 		"started": "2015/04/16",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -322,7 +322,7 @@
 	{
 		"title": "Sweet Tooth, Vol. 1: Out of the Deep Woods",
 		"author": "Jeff Lemire",
-		"rating": "3.90",
+		"rating": "5",
 		"started": "2015/04/01",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -332,7 +332,7 @@
 	{
 		"title": "Daredevil by Brian Michael Bendis & Alex Maleev Ultimate Collection, Book 1",
 		"author": "Brian Michael Bendis",
-		"rating": "4.45",
+		"rating": "5",
 		"started": "2015/04/28",
 		"finished": "2015/08/02",
 		"genre": "comics, fiction",
@@ -342,7 +342,7 @@
 	{
 		"title": "Heck",
 		"author": "Zander Cannon",
-		"rating": "4.06",
+		"rating": "5",
 		"started": "2015/05/04",
 		"finished": "2015/08/02",
 		"genre": "fiction, comics",
@@ -352,7 +352,7 @@
 	{
 		"title": "The Dragon Reborn (Wheel of Time, #3)",
 		"author": "Robert Jordan",
-		"rating": "4.22",
+		"rating": "3",
 		"started": "2015/04/02",
 		"finished": "2015/08/02",
 		"genre": "fiction",
@@ -362,7 +362,7 @@
 	{
 		"title": "The Great Hunt (Wheel of Time, #2)",
 		"author": "Robert Jordan",
-		"rating": "4.19",
+		"rating": "4",
 		"started": "2015/03/21",
 		"finished": "2015/08/02",
 		"genre": "fiction",
@@ -372,7 +372,7 @@
 	{
 		"title": "Handcrafted CSS: More Bulletproof Web Design",
 		"author": "Dan Cederholm",
-		"rating": "4.08",
+		"rating": "3",
 		"started": "2015/07/03",
 		"finished": "2015/06/11",
 		"genre": "non-fiction",
@@ -382,7 +382,7 @@
 	{
 		"title": "Do Unto Animals: A Friendly Guide to How Animals Live, and How We Can Make Their Lives Better",
 		"author": "Tracey  Stewart",
-		"rating": "4.04",
+		"rating": "3",
 		"started": "2016/07/08",
 		"finished": "2015/04/26",
 		"genre": "",
@@ -392,7 +392,7 @@
 	{
 		"title": "A Confederacy of Dunces",
 		"author": "John Kennedy Toole",
-		"rating": "3.88",
+		"rating": "3",
 		"started": "2015/08/01",
 		"finished": "2015/04/02",
 		"genre": "fiction",
@@ -402,7 +402,7 @@
 	{
 		"title": "Asphalt Renaissance: The Pavement Art and 3-D Illusions of Kurt Wenner",
 		"author": "B. Hansen",
-		"rating": "4.50",
+		"rating": "0",
 		"started": "",
 		"finished": "2015/03/04",
 		"genre": "non-fiction",
@@ -412,7 +412,7 @@
 	{
 		"title": "Pavement Chalk Artist: The Three-Dimensional Drawings of Julian Beever",
 		"author": "Julian Beever",
-		"rating": "4.10",
+		"rating": "0",
 		"started": "",
 		"finished": "2015/03/04",
 		"genre": "non-fiction",
@@ -422,7 +422,7 @@
 	{
 		"title": "The Guerilla Art Kit",
 		"author": "Keri Smith",
-		"rating": "4.09",
+		"rating": "0",
 		"started": "",
 		"finished": "2015/03/03",
 		"genre": "non-fiction",
@@ -432,7 +432,7 @@
 	{
 		"title": "Mastering Copperplate Calligraphy: A Step-by-Step Manual",
 		"author": "Eleanor Winters",
-		"rating": "4.25",
+		"rating": "0",
 		"started": "",
 		"finished": "2015/02/19",
 		"genre": "non-fiction",
@@ -442,7 +442,7 @@
 	{
 		"title": "Thor Visionaries: Walter Simonson, Vol. 1",
 		"author": "Walter Simonson",
-		"rating": "4.28",
+		"rating": "5",
 		"started": "2015/05/08",
 		"finished": "2015/02/18",
 		"genre": "comics, fiction",
@@ -452,7 +452,7 @@
 	{
 		"title": "Habit Stacking: 97 Small Life Changes That Take Five Minutes or Less",
 		"author": "S.J. Scott",
-		"rating": "3.36",
+		"rating": "3",
 		"started": "2014/11/22",
 		"finished": "2014/11/21",
 		"genre": "",
@@ -462,7 +462,7 @@
 	{
 		"title": "The Sixth Extinction: An Unnatural History",
 		"author": "Elizabeth Kolbert",
-		"rating": "4.06",
+		"rating": "2",
 		"started": "2015/04/02",
 		"finished": "2014/11/18",
 		"genre": "",
@@ -472,7 +472,7 @@
 	{
 		"title": "To Kill a Mockingbird",
 		"author": "Harper Lee",
-		"rating": "4.25",
+		"rating": "4",
 		"started": "2014/11/17",
 		"finished": "2014/11/13",
 		"genre": "fiction",
@@ -482,7 +482,7 @@
 	{
 		"title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
 		"author": "Randall Munroe",
-		"rating": "4.16",
+		"rating": "5",
 		"started": "2014/11/14",
 		"finished": "2014/11/13",
 		"genre": "",
@@ -492,7 +492,7 @@
 	{
 		"title": "Dataclysm: Who We Are (When We Think No One's Looking)",
 		"author": "Christian Rudder",
-		"rating": "3.72",
+		"rating": "4",
 		"started": "2015/01/29",
 		"finished": "2014/11/12",
 		"genre": "activism",
@@ -502,7 +502,7 @@
 	{
 		"title": "Rise Above: 7 Strategies to Crush Adversity",
 		"author": "Nate Miyaki",
-		"rating": "4.20",
+		"rating": "4",
 		"started": "2014/11/19",
 		"finished": "2014/11/12",
 		"genre": "",
@@ -512,7 +512,7 @@
 	{
 		"title": "Naked Statistics: Stripping the Dread from the Data",
 		"author": "Charles Wheelan",
-		"rating": "3.84",
+		"rating": "3",
 		"started": "2015/01/02",
 		"finished": "2014/10/31",
 		"genre": "activism",
@@ -522,7 +522,7 @@
 	{
 		"title": "The Witches",
 		"author": "Roald Dahl",
-		"rating": "4.16",
+		"rating": "5",
 		"started": "2015/08/01",
 		"finished": "2014/10/30",
 		"genre": "fiction",
@@ -532,7 +532,7 @@
 	{
 		"title": "Slaughterhouse: The Shocking Story of Greed, Neglect, And Inhumane Treatment Inside the U.S. Meat Industry",
 		"author": "Gail A. Eisnitz",
-		"rating": "4.33",
+		"rating": "5",
 		"started": "2014/10/15",
 		"finished": "2014/10/16",
 		"genre": "activism",
@@ -542,7 +542,7 @@
 	{
 		"title": "Dominion: The Power of Man, the Suffering of Animals, and the Call to Mercy",
 		"author": "Matthew Scully",
-		"rating": "4.16",
+		"rating": "5",
 		"started": "2015/01/30",
 		"finished": "2014/10/11",
 		"genre": "activism",
@@ -552,7 +552,7 @@
 	{
 		"title": "The Pornography of Meat",
 		"author": "Carol J. Adams",
-		"rating": "3.83",
+		"rating": "3",
 		"started": "2015/02/05",
 		"finished": "2014/10/11",
 		"genre": "activism",
@@ -562,7 +562,7 @@
 	{
 		"title": "Countdown: Our Last Best Hope for a Future on Earth?",
 		"author": "Alan Weisman",
-		"rating": "4.14",
+		"rating": "0",
 		"started": "2015/03/04",
 		"finished": "2014/09/13",
 		"genre": "activism",
@@ -572,7 +572,7 @@
 	{
 		"title": "Eating Animals",
 		"author": "Jonathan Safran Foer",
-		"rating": "4.16",
+		"rating": "5",
 		"started": "2014/04/01",
 		"finished": "2014/08/21",
 		"genre": "activism",
@@ -582,7 +582,7 @@
 	{
 		"title": "The Accidental Activist: Stories, Speeches, Articles, and Interviews by Vegan Outreach's Cofounder",
 		"author": "Matt Ball",
-		"rating": "4.00",
+		"rating": "3",
 		"started": "2014/10/31",
 		"finished": "2014/08/21",
 		"genre": "activism",
@@ -592,7 +592,7 @@
 	{
 		"title": "For the Prevention of Cruelty: The History and Legacy of Animal Rights Activism in the United States",
 		"author": "Diane L. Beers",
-		"rating": "4.00",
+		"rating": "4",
 		"started": "2014/10/16",
 		"finished": "2014/08/19",
 		"genre": "activism",
@@ -602,7 +602,7 @@
 	{
 		"title": "Scorpions",
 		"author": "Manny Rubio",
-		"rating": "3.79",
+		"rating": "2",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -612,7 +612,7 @@
 	{
 		"title": "The Rise of Theodore Roosevelt",
 		"author": "Edmund Morris",
-		"rating": "4.24",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -622,7 +622,7 @@
 	{
 		"title": "The Hunger Games (The Hunger Games, #1)",
 		"author": "Suzanne Collins",
-		"rating": "4.36",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -632,7 +632,7 @@
 	{
 		"title": "The Art of Manliness - Manvotionals: Timeless Wisdom and Advice on Living the 7 Manly Virtues",
 		"author": "Brett McKay",
-		"rating": "4.26",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -642,7 +642,7 @@
 	{
 		"title": "Metaphysics: Classic and Contemporary Readings",
 		"author": "Ronald C. Hoy",
-		"rating": "3.80",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -652,7 +652,7 @@
 	{
 		"title": "The Grammar Book: An ESL/EFL Teacher's Course",
 		"author": "Marianne Cele-Murcia",
-		"rating": "4.03",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -662,7 +662,7 @@
 	{
 		"title": "The Reveries of the Solitary Walker",
 		"author": "Jean-Jacques Rousseau",
-		"rating": "3.69",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -672,7 +672,7 @@
 	{
 		"title": "The Confessions of J. J. Rousseau - Complete",
 		"author": "Jean-Jacques Rousseau",
-		"rating": "3.61",
+		"rating": "2",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -682,7 +682,7 @@
 	{
 		"title": "Techniques and Principles in Language Teaching 3rd edition (Teaching Techniques in English as a Second Language)",
 		"author": "Diane Larsen-Freeman",
-		"rating": "3.85",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -692,7 +692,7 @@
 	{
 		"title": "The Scarlet Letter",
 		"author": "Nathaniel Hawthorne",
-		"rating": "3.36",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -702,7 +702,7 @@
 	{
 		"title": "The Legend of Zelda: Hyrule Historia",
 		"author": "Patrick Thorpe",
-		"rating": "4.58",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -712,7 +712,7 @@
 	{
 		"title": "Julie, or the New Heloise: Letters of Two Lovers Who Live in a Small Town at the Foot of the Alps (Rousseau, Jean-Jacques, Works. Vol. 6.)",
 		"author": "Jean-Jacques Rousseau",
-		"rating": "3.38",
+		"rating": "2",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -722,7 +722,7 @@
 	{
 		"title": "The Works of Jean-Jacques Rousseau: The Social Contract, Confessions, Emile, and Other Essays (Halcyon Classics)",
 		"author": "Jean-Jacques Rousseau",
-		"rating": "4.19",
+		"rating": "2",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -732,7 +732,7 @@
 	{
 		"title": "MIND MGMT, Vol. 2: The Futurist",
 		"author": "Matt Kindt",
-		"rating": "4.24",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -742,7 +742,7 @@
 	{
 		"title": "MIND MGMT, Vol. 1: The Manager",
 		"author": "Matt Kindt",
-		"rating": "4.02",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -752,7 +752,7 @@
 	{
 		"title": "Yotsuba&!, Vol. 02 (Yotsuba&! #2)",
 		"author": "Kiyohiko Azuma",
-		"rating": "4.51",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -762,7 +762,7 @@
 	{
 		"title": "The King in Yellow",
 		"author": "Robert W. Chambers",
-		"rating": "3.57",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -772,7 +772,7 @@
 	{
 		"title": "Yotsuba&!, Vol. 01 (Yotsuba&! #1)",
 		"author": "Kiyohiko Azuma",
-		"rating": "4.34",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -782,7 +782,7 @@
 	{
 		"title": "The Passion of Gengoroh Tagame: Master of Gay Erotic Manga",
 		"author": "Gengoroh Tagame",
-		"rating": "3.99",
+		"rating": "2",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -792,7 +792,7 @@
 	{
 		"title": "The Manara Library, Vol. 1: Indian Summer and Other Stories",
 		"author": "Milo Manara",
-		"rating": "3.75",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -802,7 +802,7 @@
 	{
 		"title": "The Bread Bible",
 		"author": "Rose Levy Beranbaum",
-		"rating": "4.20",
+		"rating": "4",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -812,7 +812,7 @@
 	{
 		"title": "Hawkeye, Vol. 1: My Life as a Weapon (Marvel NOW!) (Hawkeye Series)",
 		"author": "Matt Fraction",
-		"rating": "4.17",
+		"rating": "2",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -822,7 +822,7 @@
 	{
 		"title": "For the Prevention of Cruelty: The History and Legacy of Animal Rights Activism in the United States",
 		"author": "Diane L. Beers",
-		"rating": "4.00",
+		"rating": "5",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
@@ -832,7 +832,7 @@
 	{
 		"title": "The Great Gatsby",
 		"author": "F. Scott Fitzgerald",
-		"rating": "3.87",
+		"rating": "3",
 		"started": "",
 		"finished": "2014/08/19",
 		"genre": "",
