@@ -50,3 +50,5 @@ I'm using service workers to cache pages that users visit while online. The serv
 ## Webmentions and IndieAuth
 My website doubles as a personal log-in for all my online profiles. IndieAuth is pretty cool. It's a technology that abstracts oAuth and treats your website as a proxy. It only requires you to add a few tags to your HTML that it can use as a hook for authentication. Then you add a link to your website on oAuth platforms like Twitter and Github. Boom. You now have a single, centralized online persona that you can use to login and signup for almost anything. Note that as of this writing (October, 2016) Facebook does not currently support IndieAuth.
 
+## Library Links
+This isn't fancy tech, but I really like that my book list links to Overdrive to show you the nearest library where you can find the book! Libraries are an amazing and very underused public good. Go to the library!
