@@ -1,7 +1,7 @@
 https://www.ratticusscript.com
 
 # TL:DR;
-Write JavaScript logic - do not serve JavaScript to clients.
+Write all the JavaScript you want - serve users the JavaScript they _need_.
 
 # Long Version
 ## What's a Static Site?
