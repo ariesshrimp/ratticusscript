@@ -38,3 +38,15 @@ This customizable build process lets you write whatever you want, as long as eve
 
 A single function can be run with a convenient npm script, or incorporated into a more complex series of scripts, so that the entire site can be generated with a single command like `npm start`, or `npm run publish`.
 
+# Cool Features
+## Cross-Posting
+The `utilities/` directory has a few small scripts that take content I handwrite for my site in my local environment, and syndicates it to popular channels like Medium and Twitter. In order for this to work, you need an intermediary storage system. Since this is a serverless architecture, I'm using Firebase real-time database as a backend. I'm a huge fan of Firebase for hobby projects like this. I'm told it's prohibitively expensive at scale though.
+
+I run the utilities scripts during `npm run publish`, so that every build ensures new content is streamed out to the places people are already accustomed to getting their feed. Check out the utilities and package.json for more ideas about this.
+
+## Offline Access
+I'm using service workers to cache pages that users visit while online. The service worker then intercepts any get requests and serves them from the local cache if present. Otherwise it serves a simple "Hey, you're not online!" message. Check out `src/ServiceWorker.js` and `src/entry.js` for more on that. Service workers use a small event-driven API that's not too hard to learn if you have the time to tinker.
+
+## Webmentions and IndieAuth
+My website doubles as a personal log-in for all my online profiles. IndieAuth is pretty cool. It's a technology that abstracts oAuth and treats your website as a proxy. It only requires you to add a few tags to your HTML that it can use as a hook for authentication. Then you add a link to your website on oAuth platforms like Twitter and Github. Boom. You now have a single, centralized online persona that you can use to login and signup for almost anything. Note that as of this writing (October, 2016) Facebook does not currently support IndieAuth.
+
