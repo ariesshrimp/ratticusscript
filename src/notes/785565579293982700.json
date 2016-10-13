@@ -1,0 +1,33 @@
+{
+	"created_at": "Mon Oct 10 19:40:03 +0000 2016",
+	"entities": {
+		"urls": [
+			{
+				"display_url": "danluu.com/hiring-lemons/",
+				"expanded_url": "http://danluu.com/hiring-lemons/",
+				"indices": [
+					0,
+					23
+				],
+				"url": "https://t.co/FsFoydsPKC"
+			}
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"id": 785565579293982700,
+	"id_str": "785565579293982722",
+	"is_quote_status": false,
+	"lang": "en",
+	"possibly_sensitive": false,
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"https://ratticusscript.firebaseapp.com/\" rel=\"nofollow\">RatticusScript-Blog</a>",
+	"text": "https://t.co/FsFoydsPKC there's lemonade to be made yet!",
+	"truncated": false,
+	"user": {
+		"id": 2981248609,
+		"id_str": "2981248609"
+	},
+	"externalURL": "https://twitter.com/joseph_fraley/status/785565579293982722"
+}

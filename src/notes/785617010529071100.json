@@ -1,0 +1,19 @@
+{
+	"created_at": "Mon Oct 10 23:04:26 +0000 2016",
+	"favorite_count": 0,
+	"favorited": false,
+	"id": 785617010529071100,
+	"id_str": "785617010529071104",
+	"is_quote_status": false,
+	"lang": "en",
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"https://ratticusscript.firebaseapp.com/\" rel=\"nofollow\">RatticusScript-Blog</a>",
+	"text": "Yes, I realize that installing Heroes of the Storm is not a healthy response to stress, but it's the one I've got.",
+	"truncated": false,
+	"user": {
+		"id": 2981248609,
+		"id_str": "2981248609"
+	},
+	"externalURL": "https://twitter.com/joseph_fraley/status/785617010529071104"
+}

@@ -1,0 +1,19 @@
+{
+	"created_at": "Mon Oct 10 22:21:41 +0000 2016",
+	"favorite_count": 0,
+	"favorited": false,
+	"id": 785606255398285300,
+	"id_str": "785606255398285312",
+	"is_quote_status": false,
+	"lang": "en",
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"https://ratticusscript.firebaseapp.com/\" rel=\"nofollow\">RatticusScript-Blog</a>",
+	"text": "I hate this about Wordpress: \"The one caveat is the database.  Wordpress keeps much of its configuration and state in a MySQL database.\"",
+	"truncated": false,
+	"user": {
+		"id": 2981248609,
+		"id_str": "2981248609"
+	},
+	"externalURL": "https://twitter.com/joseph_fraley/status/785606255398285312"
+}
