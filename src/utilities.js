@@ -1,5 +1,6 @@
-import Path from 'path-browserify'
+'use strict'
 import Moment from 'moment'
+import Path from 'path-browserify'
 
 export const sortPosts = posts => {
   const sorted = posts.sort(({ meta: A }, { meta: B }) => {
@@ -12,7 +13,7 @@ export const sortPosts = posts => {
     if (dateA === dateB) return 0
     return dateA < dateB ? 1 : -1
   })
-  return sorted
+  return sorted.filter(({ meta: { attributes: { status } } }) => status !== 'draft')
 }
 
 export const getPosts = () => {
@@ -22,81 +23,50 @@ export const getPosts = () => {
   // Get the raw contents of the markdown file in a format that html-loader can handle
   const requirePost = require.context('./posts', true, /.*/)
 
-  // Get notes
-  const requireNote = require.context('./notes', true, /.*/)
-
   const paths = requirePost.keys()
   const posts = paths.map((file, index) => {
     const meta = requireMeta(file)
     const content = requirePost(file)
 
     return {
-      name: Path.basename(file).split('.')[0],  // Get the filename and take off the file extension
-      id: index,
       content,
-      meta
+      id: index,
+      meta,
+      name: Path.basename(file).split('.')[0]  // Get the filename and take off the file extension
     }
   })
 
-  const notePaths = requireNote.keys().filter(path => path.includes('.json'))
-  const notes = notePaths.map((file, index) => {
-    const note = requireNote(file)
-
-    const noteData = {
-      name: Path.basename(file).split('.')[0],  // Get the filename and take off the file extension
-      id: posts.length + index,
-      content: note.text,
-      media: (note.entities && note.entities.media) ? note.entities.media : undefined,
-      meta: {
-        type: 'note',
-        attributes: {
-          link: note.externalURL,
-          date: Moment(note.created_at, `ddd MMM DD HH:mm:ss Z YYYY`)
-        }
-      }
-    }
-    return noteData
-  })
-
-  return sortPosts(posts.concat(notes))
+  return sortPosts(posts)
 }
 
 export const getPost = name => {
-  const meta = require(`!!json!front-matter!./posts/${ name }.md`)
-  const content = require(`./posts/${ name }.md`)
+  const meta = require(`!!json!front-matter!./posts/${name}.md`)
+  const content = require(`./posts/${name}.md`)
 
   return {
-    name,
     content,
-    meta
+    meta,
+    name
   }
 }
 
-export const lastPost = post => {
+export const lastPost = ({ meta }) => {
   const requireMeta = require.context('!!json!front-matter!./posts', true, /.*/)
   const requirePost = require.context('./posts', true, /.*/)
-
-  const { meta, content, name } = post
   const { id } = meta.attributes
-
-
   const posts = requirePost.keys()
-  const lastPost = posts.find(_post => {
-    const thisMeta = requireMeta(_post)
+  const lastPost = posts.find(post => {
+    const thisMeta = requireMeta(post)
     return thisMeta.attributes.id === id - 1
   })
 
   return lastPost ? lastPost.substring(2, lastPost.length - 3) : null
 }
 
-export const nextPost = post => {
+export const nextPost = ({ meta }) => {
   const requireMeta = require.context('!!json!front-matter!./posts', true, /.*/)
   const requirePost = require.context('./posts', true, /.*/)
-
-  const { meta, content, name } = post
   const { id } = meta.attributes
-
-
   const posts = requirePost.keys()
   const nextPost = posts.find(_post => {
     const thisMeta = requireMeta(_post)
