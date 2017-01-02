@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "firebase": "^3.4.1",
-    "moment": "^2.15.1"
-  }
-}
