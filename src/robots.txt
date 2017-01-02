@@ -1,1 +1,1 @@
-Sitemap: https://ratticusscript.firebaseapp.com/sitemap.xml
+Sitemap: https://ratticusscript.com/sitemap.xml

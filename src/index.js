@@ -4,9 +4,9 @@ import ReactServer from 'react-dom/server'
 import { Router, createMemoryHistory } from 'react-router'
 import Helmet from 'react-helmet'
 
-import { createMarkup } from './utilities.js'
-import { App } from './components/app.js'
-import Routes from './components/routes.js'
+import { createMarkup } from './utilities'
+import { App } from './components/app'
+import Routes from './components/routes'
 import runtime from 'serviceworker-webpack-plugin/lib/runtime'
 
 function setUpServiceWorker() {
