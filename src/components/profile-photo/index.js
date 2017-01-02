@@ -1,7 +1,5 @@
-import React from 'react'
+'use strict'
 import PICTURE from './close-up.png'
-import CSS from './styles.scss'
+import React from 'react'
 
-export const ProfilePhoto = props => {
-  return <img className={ `${ CSS.picture } u-photo` } src={ PICTURE } alt="Joe Fraley, smiling and pretty."/>
-}
+export const ProfilePhoto = () => <img src={ PICTURE } alt="Joe Fraley, smiling and pretty."/>
