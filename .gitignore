@@ -1,7 +1,6 @@
-node_modules/
-.firebaserc
-database.rules.json
-firebase.json
 .DS_Store
-public/
-config.json
+.firebaserc
+firebase.json
+node_modules
+public
+
