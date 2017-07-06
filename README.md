@@ -1,6 +1,8 @@
 https://www.ratticusscript.com
 
 # TL:DR;
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/joefraley/ratticusscript.svg)](https://greenkeeper.io/)
 Write all the JavaScript you want - serve users the JavaScript they _need_.
 
 # Long Version
